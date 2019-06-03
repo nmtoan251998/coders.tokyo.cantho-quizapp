@@ -2,5 +2,7 @@
 - Play page: 
     + Make it more fancy.
     + Point calculator    
-- User page: render fake users information.
+    + Answered questions table
+- User page: 
+    + Server side pagination
 - Dashboard: render fake dashboard information.

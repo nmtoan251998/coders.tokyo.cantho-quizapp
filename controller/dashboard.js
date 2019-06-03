@@ -1,3 +1,12 @@
+const data = require('../models/fakeUsersData');
+const stringMakeUp = require('../function/stringInteraction');
+
 module.exports.getDashboard = (req, res) => {
-    res.render('pages/dashboard');
+    let userData = [...data];
+
+    userData.forEach(user => {
+        user.name = stringMakeUp.upperFirstCase(user.name);
+    });
+
+    res.render('pages/dashboard', { users: userData });
 }

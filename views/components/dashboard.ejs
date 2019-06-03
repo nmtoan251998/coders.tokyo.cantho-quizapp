@@ -1,0 +1,18 @@
+<table class="table table-hover table-hovered w-75 mx-auto mt-5">
+    <thead>
+        <tr>
+            <th scope="col" class="w-50">Name</th>
+            <th scope="col" class="w-25">Score</th>
+            <th scope="col" class="w-25">Participation</th>            
+        </tr>
+    </thead>
+    <tbody>
+        <% users.forEach(user => { %>
+            <tr>            
+                <td class="w-50"><%= user.name %></td>
+                <td class="w-25"><%= user.score %></td>                
+                <td class="w-25"><%= user.assign.length %></td>                
+            </tr>        
+        <% }) %>
+    </tbody>
+</table>
