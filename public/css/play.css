@@ -1,0 +1,17 @@
+.question-wrapper {
+    width: 40%;
+}
+
+.button-submit {
+    border: none;
+}
+
+.result-buttons {
+    margin-bottom: 12px;
+}
+
+/* Ultilities */
+.u-mb-1 {
+    margin-bottom: 10px;
+}
+

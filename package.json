@@ -15,8 +15,11 @@
     "nodemon": "^1.19.1"
   },
   "dependencies": {
+    "ajax-request": "^1.2.3",
+    "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "ejs": "^2.6.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "url": "^0.11.0"
   }
 }
