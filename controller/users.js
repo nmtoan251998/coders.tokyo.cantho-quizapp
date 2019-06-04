@@ -2,11 +2,12 @@ const data = require('../models/fakeUsersData');
 const stringMakeUp = require('../function/stringInteraction');
 
 module.exports.getUsers = (req, res) => {
-    let userData = [...data];
+    let userData = [...data];        
 
     userData.forEach(user => {
         user.name = stringMakeUp.upperFirstCase(user.name);
-        user.email = stringMakeUp.protectUserEmail(user.email, '*', 4);
+        user.email = stringMakeUp.protectString(user.email, '*', 4);
+        user.phone = stringMakeUp.protectString(user.phone, '*', 5)
     })    
 
     res.render('pages/users', { users: userData });

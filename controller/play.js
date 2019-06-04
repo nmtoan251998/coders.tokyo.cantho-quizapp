@@ -34,5 +34,5 @@ module.exports.getQuestions = (req, res) => {
         return res.redirect('/play');
     }
     
-    res.render('pages/play', { innerData, quesIndex, answerResult, answerIndex });
+    res.render('pages/play', { innerData, quesIndex, answerResult, answerIndex, fullData: data });
 }
