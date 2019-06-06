@@ -1,5 +1,5 @@
 const data = require('../models/fakeUsersData');
-const stringMakeUp = require('../function/stringInteraction');
+const stringMakeUp = require('../function/string-interaction');
 
 module.exports.getDashboard = (req, res) => {
     let userData = [...data];
