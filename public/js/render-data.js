@@ -82,10 +82,26 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderQuestionTable(from, to) {        
         let questionList = '';
         for(let i = from; i <= to; i++) {
-            questionList += `<a class="question-item" href=#>${i}</a>`
+            questionList += `<a class="question-item" href=${i}>${i}</a>`
         }                
         document.getElementById('question-items-wrapper').innerHTML = questionList;
-    };    
+
+        // Render question follow the item in question table
+        const questionListEl = document.querySelectorAll('.question-item');
+
+        questionListEl.forEach(quesItem => {              
+            quesItem.addEventListener('click', (event) => {
+                event.preventDefault();
+                recentQues = parseInt(event.target.getAttribute('href'));
+                renderTopicQuestions();
+                
+                questionListEl.forEach(item => {
+                    item.classList.remove('active-question');
+                })
+                quesItem.classList.add('active-question');
+            })
+        })
+    };                    
 
     // Validation user actions
     initButton.addEventListener('click', (event) => {         
@@ -142,5 +158,5 @@ document.addEventListener("DOMContentLoaded", () => {
         topicRangeFrom = getTopicRange(topicRange.value).rangeFrom;
         topicRangeTo = getTopicRange(topicRange.value).rangeTo;
         recentQues = topicRangeFrom;
-    })
+    })    
 })

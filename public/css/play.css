@@ -50,6 +50,16 @@
     color: #f6f6f6;
 }
 
+.active-question {
+    background-color: #B4DDB7;
+    color: black;
+}
+
+.active-question:hover {    
+    color: black;
+    background-color: rgb(153, 179, 154);
+}
+
 /* Ultilities */
 .u-mb-1 {
     margin-bottom: 10px;
