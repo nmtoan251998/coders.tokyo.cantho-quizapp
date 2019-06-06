@@ -1,7 +1,11 @@
 const router = require('express').Router();
 
 const testController = require('../controller/test');
+
 const htmlController = require('../controller/data/html');
+const cssController = require('../controller/data/css');
+const jsController = require('../controller/data/js');
+
 const playController = require('../controller/play');
 const dashboardController = require('../controller/dashboard');
 const userController = require('../controller/users');
@@ -13,6 +17,8 @@ router.route('/test').get(testController.testData);
 // route    /data/html
 // desc     API to send data
 router.route('/data/html').get(htmlController.send);    
+router.route('/data/css').get(cssController.send);    
+router.route('/data/js').get(jsController.send);    
 
 // route    /
 // desc     home page

@@ -8,31 +8,25 @@ document.addEventListener("DOMContentLoaded", () => {
     let recentQues = 0;    
     let topic;        
     let topicRangeFrom, topicRangeTo;
+    let data;
 
     // Fetch data from API using ajax
-    function getTopicData(topic = 'html') {
-        let data;
+    function getTopicData(topic = 'html') {        
         let ajax = new XMLHttpRequest();
         ajax.open('GET', `http://localhost:3000/data/${topic}`, false);
-        ajax.onreadystatechange = function() {
-            if(this.status != 200 || this.readyState != 4) {
-                // load the spinner
-            } else if(this.status == 200 && this.readyState == 4) {
-                data = this.responseText;
-            }
-        }
-        ajax.send();
-        return data;
-    };    
-    const data = JSON.parse(getTopicData(topic));
+
+        ajax.send();        
+        return ajax.responseText;             
+    };        
+    data = JSON.parse(getTopicData(topic));        
 
     function renderTopicQuestions() {        
         let quesEl = '';
-
+        console.log(data);
         quesEl += `<p>Câu ${recentQues+1}: ${data[recentQues].question}?</p>
             <input 
                 type="text" 
-                name="quesIndex"                
+                name="quesIndex"
                 hidden 
                 value=${recentQues}> `;        
         data[recentQues].answer.forEach(answer => {
@@ -105,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Validation user actions
     initButton.addEventListener('click', (event) => {         
-        if(!topic) return alert('Choose topic');        
+        if(!topic) return alert('Choose topic');         
         
         // prevent the anchor to render the page
         event.preventDefault();
@@ -130,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     nextButton.addEventListener('click', (event) => {         
-        if(!topic) return alert('Choose topic');
+        if(!topic) return alert('Choose topic');        
 
         // prevent the anchor to render the page
         event.preventDefault();    
@@ -147,6 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get topic
     topicOptions.addEventListener('change', (event) => {
         topic = event.target.value.trim().toLowerCase();   
+        data = JSON.parse(getTopicData(topic));
         if(topic) renderTopicRange();          
 
         topicRangeFrom = getTopicRange(topicRange.value).rangeFrom;
