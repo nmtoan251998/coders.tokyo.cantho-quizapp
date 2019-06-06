@@ -21,21 +21,16 @@ document.addEventListener("DOMContentLoaded", () => {
     data = JSON.parse(getTopicData(topic));        
 
     function renderTopicQuestions() {        
-        let quesEl = '';
-        console.log(data);
-        quesEl += `<p>Câu ${recentQues+1}: ${data[recentQues].question}?</p>
-            <input 
-                type="text" 
-                name="quesIndex"
-                hidden 
-                value=${recentQues}> `;        
-        data[recentQues].answer.forEach(answer => {
+        let quesEl = '';        
+        quesEl += `<p>Câu ${recentQues+1}: ${data[recentQues].question}?</p>`;            
+        data[recentQues].answer.forEach(answer => {            
             quesEl += `            
                 <input 
                     type="radio"         
-                    name="answerResult"            
+                    name="answerResult"
+                    data-detail="${data[recentQues].detail}"
                     class="result-buttons"                    
-                    value= ${answer.isCorrect}>
+                    value=${answer.isCorrect}>
                     ${answer.content}
                 <br/>` 
         });

@@ -5,15 +5,18 @@ module.exports.getQuestions = (req, res) => {
 }
 
 module.exports.postAnswer = (req, res) => {        
-    const answerResult = req.body.answerResult.toString().trim() === "true" ? true : false;    
-    
-    if(req.body.answerResult.toString().trim() === "undefined") {
-        return res.send(`<div class="alert alert-secondary w-75 mx-auto text-center" role="alert">Choose an answer</div>`)
-    }
+    const answerResult = req.body.answerResult.toString().trim() === "true" ? true : false; 
+    const quesDetail = req.body.quesDetail.toString().trim();        
 
-    if(answerResult === true) {
-        res.send(`<div class="alert alert-success w-75 mx-auto text-center" role="alert">Correct answer</div>`);
-    } else {
-        res.send(`<div class="alert alert-danger w-75 mx-auto text-center" role="alert">Wrong answer</div>`);
-    }    
+    if(req.body.answerResult.toString().trim() === "undefined") {
+        return res.send(`<div id="answer-result-displayer" class="alert alert-secondary w-75 mx-auto text-center" role="alert">Choose an answer</div>`)
+    } 
+
+    if(answerResult === false) {
+        return res.send(`<div id="answer-result-displayer" class="alert alert-danger w-75 mx-auto text-center" role="alert">Wrong answer</div>`);
+    } 
+
+    if(answerResult === true){        
+        res.send(`<div id="answer-result-displayer" class="alert alert-success w-75 mx-auto text-center" role="alert">Correct answer</div> <input id="ques-detail" type="text" hidden value="${quesDetail}">`);
+    }       
 }
