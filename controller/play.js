@@ -1,17 +1,7 @@
-const HTMLdata = require('../models/fakeHTMLData');
 let quesIndex = 0;
 
-module.exports.getQuestions = (req, res) => {        
-    let answerIndex = req.query.answerIndex || undefined;    
-    let answerResult;            
-            
-    // Play nothing, do nothing
-    if(!req.query.answerResult);
-
-    // Check for correctness when radio buttons are clicked
-    if(req.query.answerResult) answerResult = (req.query.answerResult === "true") ? true : false; 
-
-    res.render('pages/play', { quesIndex, answerResult, answerIndex, fullData: HTMLdata });
+module.exports.getQuestions = (req, res) => {            
+    res.render('pages/play', { quesIndex });
 }
 
 module.exports.postAnswer = (req, res) => {        
