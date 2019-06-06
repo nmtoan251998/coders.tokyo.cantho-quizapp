@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
         questionListEl.forEach(quesItem => {              
             quesItem.addEventListener('click', (event) => {
                 event.preventDefault();
-                recentQues = parseInt(event.target.getAttribute('href'));
+                recentQues = parseInt(event.target.getAttribute('href')-1);
                 renderTopicQuestions();
                 
                 questionListEl.forEach(item => {
