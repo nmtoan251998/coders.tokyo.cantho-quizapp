@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     document.getElementById('answer-result').innerHTML = ajax.responseText;                                
                 }
             };            
-            ajax.send('answerResult=undefined' +'&quesDetail=' +quesDetail);
+            ajax.send('answerResult=undefined' +'&answerExplain=' +answerExplain);
         }                                
     });            
 })
