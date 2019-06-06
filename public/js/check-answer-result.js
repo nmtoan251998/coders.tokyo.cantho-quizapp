@@ -4,12 +4,14 @@ document.addEventListener("DOMContentLoaded", () => {
     checkButton.addEventListener('click', (event) => {
         event.preventDefault();                                
         let elements = Array.from(document.querySelectorAll('.result-buttons'));  
-        let quesDetail = '';
+        let answerExplain = '';
         
         try {   
             const answer = elements.filter(el => {
                 if(el.checked === true) {
-                    quesDetail = el.dataset.detail;                    
+                    answerExplain = el.dataset.answerexplain;    
+                    console.log(answerExplain)                
+                    console.log(el)
                     return el;
                 }                
             }).shift().value;
@@ -21,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     document.getElementById('answer-result').innerHTML = ajax.responseText;                    
                 }
             };
-            ajax.send('answerResult=' +answer +'&quesDetail=' +quesDetail);
+            ajax.send('answerResult=' +answer +'&answerExplain=' +answerExplain);
         } catch(err)    {            
             let ajax = new XMLHttpRequest;
             ajax.open("post", "http://localhost:3000/play", true)

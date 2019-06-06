@@ -6,7 +6,8 @@ module.exports.getQuestions = (req, res) => {
 
 module.exports.postAnswer = (req, res) => {        
     const answerResult = req.body.answerResult.toString().trim() === "true" ? true : false; 
-    const quesDetail = req.body.quesDetail.toString().trim();        
+    const answerExplain = req.body.answerExplain.toString().trim();     
+    console.log(answerExplain)   
 
     if(req.body.answerResult.toString().trim() === "undefined") {
         return res.send(`<div id="answer-result-displayer" class="alert alert-secondary w-75 mx-auto text-center" role="alert">Choose an answer</div>`)
@@ -17,6 +18,6 @@ module.exports.postAnswer = (req, res) => {
     } 
 
     if(answerResult === true){        
-        res.send(`<div id="answer-result-displayer" class="alert alert-success w-75 mx-auto text-center" role="alert">Correct answer</div> <input id="ques-detail" type="text" hidden value="${quesDetail}">`);
+        res.send(`<div id="answer-result-displayer" class="alert alert-success w-75 mx-auto text-center" role="alert">Correct answer</div> <input id="answer-explain" type="text" hidden value="${answerExplain}">`);
     }       
 }

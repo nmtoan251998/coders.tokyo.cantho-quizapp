@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <input 
                     type="radio"         
                     name="answerResult"
-                    data-detail="${data[recentQues].detail}"
+                    data-answerexplain="${data[recentQues].detail}"
                     class="result-buttons"                    
                     value=${answer.isCorrect}>
                     ${answer.content}

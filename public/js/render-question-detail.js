@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const answerResultTextContent = document.getElementById('answer-result-displayer').textContent.toString().trim();            
             const answerResult = answerResultTextContent.slice(0, answerResultTextContent.indexOf(' '));            
 
-            if(answerResult === "Correct") {       
-                const quesDetail = document.getElementById('ques-detail').value;         
-                alert(quesDetail);
+            if(answerResult === "Correct") {
+                const answerExplanation = document.getElementById('answer-explain').value;         
+                alert(answerExplanation);
             }            
         }, 1000)               
     })
