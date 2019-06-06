@@ -1,38 +1,29 @@
-const data = require('../models/fakePlayData');
+const HTMLdata = require('../models/fakeHTMLData');
 let quesIndex = 0;
 
 module.exports.getQuestions = (req, res) => {        
     let answerIndex = req.query.answerIndex || undefined;    
-    let answerResult;        
-    let innerData = data.filter((pair, index) => index === quesIndex).shift();
-
-    const init = () => {
-        innerData = data.filter((pair, index) => index === quesIndex).shift();
-        answerIndex = req.query.answerIndex || undefined;
-        quesIndex = 0;
-    }    
+    let answerResult;            
             
     // Play nothing, do nothing
     if(!req.query.answerResult);
 
     // Check for correctness when radio buttons are clicked
-    if(req.query.answerResult) answerResult = (req.query.answerResult === "true") ? true : false;
+    if(req.query.answerResult) answerResult = (req.query.answerResult === "true") ? true : false; 
 
-    // Clear current cache
-    if(req.query.init) {
-        init();
-        return res.redirect('/play');
-    }
-    // Move to the next question
-    if(req.query.next) {
-        quesIndex++;                        
-        return res.redirect('/play');
-    }
-    // Back to the pre question
-    if(req.query.back) {
-        quesIndex--;                        
-        return res.redirect('/play');
-    }
+    res.render('pages/play', { quesIndex, answerResult, answerIndex, fullData: HTMLdata });
+}
+
+module.exports.postAnswer = (req, res) => {        
+    const answerResult = req.body.answerResult.toString().trim() === "true" ? true : false;    
     
-    res.render('pages/play', { innerData, quesIndex, answerResult, answerIndex, fullData: data });
+    if(req.body.answerResult.toString().trim() === "undefined") {
+        return res.send(`<div class="alert alert-secondary w-75 mx-auto text-center" role="alert">Choose an answer</div>`)
+    }
+
+    if(answerResult === true) {
+        res.send(`<div class="alert alert-success w-75 mx-auto text-center" role="alert">Correct answer</div>`);
+    } else {
+        res.send(`<div class="alert alert-danger w-75 mx-auto text-center" role="alert">Wrong answer</div>`);
+    }    
 }

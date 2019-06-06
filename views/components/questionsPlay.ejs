@@ -1,58 +1,34 @@
-<div class="question-wrapper mx-auto mt-5 p-2 bg-light clearfix rounded">
-        <!-- <div class="alert alert-secondary w-75 mx-auto text-center" role="alert">Choose answer</div> -->         
-
-    <!-- Restart -->
+<div class="question-wrapper mx-auto mt-5 p-2 bg-light clearfix rounded">        
+    <!-- Render question -->
     <div class="float-right">
-        <a href="/play?init=true" class="btn btn-danger">Initial</a>
+        <a href="/play?init=true" id="init-button" class="btn btn-danger">Render</a>
     </div>
         
     <!-- Topic Options -->
-    <div class="form-group mx-auto topic-option">        
+    <div class="form-group mx-auto" id="topic-options-wrapper">        
         <select class="form-control" id="topic-options">
             <option>Choose topic</option>
+            <option>HTML</option>
             <option>JS</option>
             <option>CSS</option>
             <option>General</option>
+            <option>Interviewing</option>
         </select>        
     </div>
 
     <!-- Topic range -->
-    <div class="form-group mx-auto topic-range">        
+    <div class="form-group mx-auto" id="topic-range-wrapper">        
         <select class="form-control" id="topic-range">
-            <option>91-120</option>            
-        </select>        
-    </div>
+            <option value="1-20">1-20</option>
+        </select>
+    </div>    
 
     <!-- Question content -->
     <div class="question-container">
-        <p>Câu <%= quesIndex+1 %>: <%= innerData.question %>?</p> 
-        <form action="/play" method="GET" id="question-form">
-            <input 
-                type="text" 
-                name="quesIndex"
-                hidden 
-                value=<%= quesIndex %>>
-            <%  innerData.answers.forEach((answer, index) => { 
-                if(index === parseInt(answerIndex)) {%>
-                    <input 
-                        type="radio" 
-                        name="answerResult"
-                        class="result-buttons"
-                        id= <%= index %>
-                        checked
-                        value= <%= answer.isCorrect %>>
-                        <%= answer.answer %>
-                        <br/>
-                <%} else {%> 
-                    <input 
-                        type="radio" 
-                        name="answerResult"
-                        class="result-buttons"
-                        id= <%= index %>
-                        value= <%= answer.isCorrect %>>
-                        <%= answer.answer %>
-                        <br/>
-            <% }}) %>
+        <form action="/play" id="question-form">
+            <div id="data-wrapper">
+                
+            </div>
             <input 
                 type="text" 
                 name="answerIndex"
@@ -65,23 +41,15 @@
                 value= <%= quesIndex+1 %>
                 hidden>
             <div class="u-mb-1"></div>            
-            <button class="button-submit btn btn-primary">Check</button>
-            <div class="button-group float-right">                                                
-                <% if(quesIndex > 0) {%>
-                    <a href="/play?back=true" class="btn btn-warning">Back</a>
-                <% } %>
-                <a href="/play?next=true" class="btn btn-warning">Next</a>                                          
-            </div>               
+            <button class="button-submit btn btn-primary" id="check-button">Check</button>
+            <div class="button-group float-right">
+                <a href="#" id="prev-button" class="btn btn-warning">Back</a>            
+                <a href="#" id="next-button" class="btn btn-warning">Next</a>                                          
+            </div>
         </form>        
     </div>
 
-    <div class="mt-5">
-        <!-- Result of the question -->
-        <% if(answerResult) { 
-            if(answerResult === true) %>
-                <div class="alert alert-success w-75 mx-auto text-center" role="alert">Correct answer</div>
-            <% } else if(answerResult === false) { %>
-                <div class="alert alert-danger w-75 mx-auto text-center" role="alert">Wrong answer</div>
-        <% } %>  
+    <div class="mt-5" id="answer-result">
+        
     </div>    
 </div>
