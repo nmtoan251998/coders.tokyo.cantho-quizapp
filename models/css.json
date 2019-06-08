@@ -1,6 +1,6 @@
 [
 	{
-		"question": " 1. How can you created rounded corners using CSS3?  ",
+		"question": " How can you created rounded corners using CSS3 ",
 		"answer": [
 			{
 				"content": "A. border[round]: 30px;",
@@ -22,7 +22,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 2. How do you add shadow to elements in CSS3?  ",
+		"question": " How do you add shadow to elements in CSS3 ",
 		"answer": [
 			{
 				"content": "A. box-shadow: 10px 10px 5px grey;",
@@ -44,7 +44,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 3. How to you modify a border image using CSS3?  ",
+		"question": " How to you modify a border image using CSS3  ",
 		"answer": [
 			{
 				"content": "A. border: url(image.png);",
@@ -66,7 +66,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 4. How to resize a background image using CSS3?  ",
+		"question": " How to resize a background image using CSS3  ",
 		"answer": [
 			{
 				"content": "A. background-size: 80px 60px;",
@@ -88,7 +88,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 5. How to add text shadow using CSS3?  ",
+		"question": "  How to add text shadow using CSS3 ",
 		"answer": [
 			{
 				"content": "A. font: shadowed 5px 5px 5px grey;",
@@ -110,7 +110,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 6. How to force a word wrap using CSS3?  ",
+		"question": "  How to force a word wrap using CSS3  ",
 		"answer": [
 			{
 				"content": "A. word-wrap: break-word;",
@@ -132,7 +132,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 7. Which of these are valid CSS3 transformation statements.  ",
+		"question": " Which of these are valid CSS3 transformation statements  ",
 		"answer": [
 			{
 				"content": "A. matrix()",
@@ -154,7 +154,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 8. How to rotate objects using CSS3?  ",
+		"question": "  How to rotate objects using CSS3  ",
 		"answer": [
 			{
 				"content": "A. object-rotation: 30deg;",
@@ -176,7 +176,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 9. How to re-size/scale objects using CSS3?\n  ",
+		"question": "  How to re-size/scale objects using CSS3  ",
 		"answer": [
 			{
 				"content": "A. transform: scale(2,4);",
@@ -198,7 +198,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 10. How to create transition effects using CSS3?  ",
+		"question": "  How to create transition effects using CSS3 ",
 		"answer": [
 			{
 				"content": "A. transition: width 2s;",
@@ -220,7 +220,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 11. Look at the code. What piece of code is missing when make a text shadow?\n  #basicTextShadow p{\n  text-shadow: 1px 1px 3px;\n  }\n  ",
+		"question": "  Look at the code. What piece of code is missing when make a text shadow\n  #basicTextShadow p{\n  text-shadow: 1px 1px 3px;\n  }\n  ",
 		"answer": [
 			{
 				"content": "A. the color",
@@ -242,7 +242,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 12. Does the box-shadow support all browsers ?  ",
+		"question": "  Does the box-shadow support all browsers  ",
 		"answer": [
 			{
 				"content": "A. true",
@@ -256,7 +256,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 13. True or False. In vertical offsets for box shadows, the (-1) means that the box-shadow will be below the box?  ",
+		"question": " True or False. In vertical offsets for box shadows, the (-1) means that the box-shadow will be below the box  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -270,7 +270,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 14. What does RGBa mean?  ",
+		"question": " What does RGBa mean  ",
 		"answer": [
 			{
 				"content": "A. Review Get assistance Back-up your information acquire proof",
@@ -292,7 +292,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 15. __________ is a property that allows developers to add rounded corners on the design elements.  ",
+		"question": " __________ is a property that allows developers to add rounded corners on the design elements  ",
 		"answer": [
 			{
 				"content": "A. Corner",
@@ -314,7 +314,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 16. Box-Shadow is a property that allows developers to apply a....  ",
+		"question": " Box-Shadow is a property that allows developers to apply a....  ",
 		"answer": [
 			{
 				"content": "A. Border",
@@ -336,7 +336,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 17. If you put a value of 0 for a Border-Radius what will happen?.\n  \n  ",
+		"question": " If you put a value of 0 for a Border-Radius what will happen  ",
 		"answer": [
 			{
 				"content": "A. The Corner will curve horizontal.",
@@ -358,7 +358,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 18. Which prefix do you need to get CSS3 properties to work on older Mozilla Firefox browsers?  ",
+		"question": " Which prefix do you need to get CSS3 properties to work on older Mozilla Firefox browsers  ",
 		"answer": [
 			{
 				"content": "A. -webkit-",
@@ -380,7 +380,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 19. What does the a stand for in RGBa?  ",
+		"question": " What does the a stand for in RGBa ",
 		"answer": [
 			{
 				"content": "A. alpha",
@@ -402,7 +402,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 20. What are the first three values of text-shadow in order?  ",
+		"question": " What are the first three values of text-shadow in order ",
 		"answer": [
 			{
 				"content": "A. vertical, blur, horizontal",
@@ -424,7 +424,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 21. Can you have multiple box-shadows?  ",
+		"question": " Can you have multiple box-shadows  ",
 		"answer": [
 			{
 				"content": "A. yes",
@@ -438,7 +438,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 22. How do four values work on border-radius  ",
+		"question": " How do four values work on border-radius  ",
 		"answer": [
 			{
 				"content": "A. top, bottom, left, right",
@@ -460,7 +460,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 23. How can you created rounded corners using CSS3?  ",
+		"question": " How can you created rounded corners using CSS3 ",
 		"answer": [
 			{
 				"content": "A. border[round]: 30px;",
@@ -482,7 +482,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 24. Has CSS3 been fully supported by all browsers?  ",
+		"question": " Has CSS3 been fully supported by all browsers ",
 		"answer": [
 			{
 				"content": "A. Yes",
@@ -496,7 +496,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 25. How to add text shadow using CSS3?  ",
+		"question": " How to add text shadow using CSS3  ",
 		"answer": [
 			{
 				"content": "A. font: shadowed 5px 5px 5px grey;",
@@ -518,7 +518,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 26. How to rotate objects using CSS3?  ",
+		"question": "  How to rotate objects using CSS3  ",
 		"answer": [
 			{
 				"content": "A. object-rotation: 30deg;",
@@ -540,7 +540,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 27. How to create transition effects using CSS3?  ",
+		"question": " How to create transition effects using CSS3  ",
 		"answer": [
 			{
 				"content": "A. transition: width 2s;",
@@ -562,7 +562,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 28. How to force a word wrap using CSS3?  ",
+		"question": " How to force a word wrap using CSS3  ",
 		"answer": [
 			{
 				"content": "A. word-wrap: break-word;",
@@ -584,7 +584,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 29. How to you modify a border image using CSS3?  ",
+		"question": " How to you modify a border image using CSS3 ",
 		"answer": [
 			{
 				"content": "A. border: url(image.png);",
@@ -606,7 +606,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 30. How to resize a background image using CSS3?  ",
+		"question": " How to resize a background image using CSS3  ",
 		"answer": [
 			{
 				"content": "A. background-size: 80px 60px;",
@@ -628,7 +628,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 31. What is the new, easier way to import or modify fonts with CSS3?  ",
+		"question": "What is the new, easier way to import or modify fonts with CSS3 ",
 		"answer": [
 			{
 				"content": "A. font-source: url(\\’Sansation_Light.eot\\’) format(\\”opentype\\”);",
@@ -646,7 +646,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 32. A navigation bar needs standard HTML as a base  ",
+		"question": " A navigation bar needs standard HTML as a base  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -660,7 +660,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 33. The ____________ property specifies the stack order of an element  ",
+		"question": " The ____________ property specifies the stack order of an element  ",
 		"answer": [
 			{
 				"content": "A. d-index",
@@ -682,7 +682,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 34. What is css Float?  ",
+		"question": " What is css Float  ",
 		"answer": [
 			{
 				"content": "A. allows other elements to wrap around an element",
@@ -704,7 +704,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 35. The font-size value can be an absolute, or relative size  ",
+		"question": " The font-size value can be an absolute, or relative size  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -718,7 +718,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 36. In CSS, it is not possible to specify different padding for different sides  ",
+		"question": "  In CSS, it is not possible to specify different padding for different sides  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -732,7 +732,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 37. ____________ property specifies an image to use as the background of an element  ",
+		"question": " ____________ property specifies an image to use as the background of an element  ",
 		"answer": [
 			{
 				"content": "A. backg-img",
@@ -754,7 +754,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 38. The _____________ selector is used to specify a style for a single, unique element  ",
+		"question": " The _____________ selector is used to specify a style for a single, unique element  ",
 		"answer": [
 			{
 				"content": "A. id",
@@ -776,7 +776,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 39. Which of the below is the correct way to set a background image?  ",
+		"question": " Which of the below is the correct way to set a background image  ",
 		"answer": [
 			{
 				"content": "A. body {background-image:url(paper.gif);}",
@@ -798,7 +798,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 40. Which of the below is the correct way to set a font size?  ",
+		"question": " Which of the below is the correct way to set a font size  ",
 		"answer": [
 			{
 				"content": "A. h2 {font-size:200%;}",

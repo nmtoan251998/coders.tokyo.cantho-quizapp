@@ -1,4 +1,4 @@
-const HTMLdata = require('../models/fakeHTMLData');
+// const HTMLdata = require('../models/fakeHTMLData');
 let quesIndex = 0;
 
 module.exports.testData = (req, res) => {  
