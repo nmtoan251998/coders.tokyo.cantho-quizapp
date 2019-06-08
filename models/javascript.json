@@ -1,0 +1,482 @@
+[
+	{
+		"question": " 1. Which of the following is a server-side Java Script object?  ",
+		"answer": [
+			{
+				"content": "A. Function",
+				"isCorrect": false
+			},
+			{
+				"content": "B. File",
+				"isCorrect": true
+			},
+			{
+				"content": "C. FileUpload",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Date",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 2. Java script can be used for Storing the form's contents to a database file on the server  ",
+		"answer": [
+			{
+				"content": "A. False",
+				"isCorrect": true
+			},
+			{
+				"content": "B. True",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 3. To insert a JavaScript into an HTML page, which tag is used?  ",
+		"answer": [
+			{
+				"content": "A. < script=’java’>",
+				"isCorrect": false
+			},
+			{
+				"content": "B. < javascript>",
+				"isCorrect": false
+			},
+			{
+				"content": "C. < script>",
+				"isCorrect": true
+			},
+			{
+				"content": "D. < js>",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 4. Which of the below is used in Java script to insert special characters?  ",
+		"answer": [
+			{
+				"content": "A. &",
+				"isCorrect": false
+			},
+			{
+				"content": "B. \\",
+				"isCorrect": true
+			},
+			{
+				"content": "C. -",
+				"isCorrect": false
+			},
+			{
+				"content": "D. %",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 5. How does Java Script store dates in objects of Date type?  ",
+		"answer": [
+			{
+				"content": "A. The number of days since January 1st, 1900",
+				"isCorrect": false
+			},
+			{
+				"content": "B. The number of seconds since January 1st, 1970",
+				"isCorrect": false
+			},
+			{
+				"content": "C. The number of milliseconds since January 1st, 1970",
+				"isCorrect": true
+			},
+			{
+				"content": "D. The number of picoseconds since January 1st, 1970",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 6. C-style block-level scoping is not supported in Java script  ",
+		"answer": [
+			{
+				"content": "A. False",
+				"isCorrect": false
+			},
+			{
+				"content": "B. True",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 7. JavaScript ignores extra spaces  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": false
+			},
+			{
+				"content": "B. False",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 8. Which is the correct way to write a JavaScript array?  ",
+		"answer": [
+			{
+				"content": "A. var txt = new Array(1:\"arr\",2:\"kim\",3:\"jim\")",
+				"isCorrect": false
+			},
+			{
+				"content": "B. var txt = new Array:1=(\" arr \")2=(\"kim\")3=(\"jim\")",
+				"isCorrect": false
+			},
+			{
+				"content": "C. var txt = new Array(\"arr \",\"kim\",\"jim\")",
+				"isCorrect": true
+			},
+			{
+				"content": "D. var txt = new Array=\" arr \",\"kim\",\"jim\"",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 9. Which of the following is correct to write “Hello World” on the web page?  ",
+		"answer": [
+			{
+				"content": "A. System.out.println(“Hello World”)",
+				"isCorrect": false
+			},
+			{
+				"content": "B. print(“Hello World”)",
+				"isCorrect": false
+			},
+			{
+				"content": "C. document.write(“Hello World”)",
+				"isCorrect": true
+			},
+			{
+				"content": "D. response.write(“Hello World”)",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 10. Which of the following is the tainted property of a window object in Java Script?  ",
+		"answer": [
+			{
+				"content": "A. Pathname",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Protocol",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Defaultstatus",
+				"isCorrect": true
+			},
+			{
+				"content": "D. Host",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 11. Which attribute needs to be changed to make elements invisible?  ",
+		"answer": [
+			{
+				"content": "A. visibilty",
+				"isCorrect": true
+			},
+			{
+				"content": "B. visible",
+				"isCorrect": false
+			},
+			{
+				"content": "C. invisibility",
+				"isCorrect": false
+			},
+			{
+				"content": "D. invisible",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 12. Which of the following is used to capture all click events in a window?  ",
+		"answer": [
+			{
+				"content": "A. window.captureEvents(Event.CLICK);",
+				"isCorrect": true
+			},
+			{
+				"content": "B. window.routeEvents(Event.CLICK );",
+				"isCorrect": false
+			},
+			{
+				"content": "C. window.handleEvents (Event.CLICK);",
+				"isCorrect": false
+			},
+			{
+				"content": "D. window.raiseEvents(Event.CLICK );",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 13. Javascript is an object oriented language?  ",
+		"answer": [
+			{
+				"content": "A. False",
+				"isCorrect": false
+			},
+			{
+				"content": "B. True",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 14. Which of the following is not a valid JavaScript variable name?  ",
+		"answer": [
+			{
+				"content": "A. 2java",
+				"isCorrect": true
+			},
+			{
+				"content": "B. _java_and_ java _names",
+				"isCorrect": false
+			},
+			{
+				"content": "C. javaandjava",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None of the above",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 15. Which of the ways below is incorrect of instantiating a date?  ",
+		"answer": [
+			{
+				"content": "A. new Date(dateString)",
+				"isCorrect": false
+			},
+			{
+				"content": "B. new Date()",
+				"isCorrect": false
+			},
+			{
+				"content": "C. new Date(seconds)",
+				"isCorrect": true
+			},
+			{
+				"content": "D. new Date(year, month, day, hours, minutes, seconds, milliseconds)",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 16. What is negative infinity in Java script?  ",
+		"answer": [
+			{
+				"content": "A. Any of below",
+				"isCorrect": false
+			},
+			{
+				"content": "B. number in JavaScript, derived by dividing number by a negative number.",
+				"isCorrect": false
+			},
+			{
+				"content": "C. number in JavaScript, derived by dividing number by zero.",
+				"isCorrect": false
+			},
+			{
+				"content": "D. number in JavaScript, derived by dividing negative number by zero",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 17. ___________ JavaScript is also called client-side JavaScript.  ",
+		"answer": [
+			{
+				"content": "A. Microsoft",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Navigator",
+				"isCorrect": true
+			},
+			{
+				"content": "C. LiveWire",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Native",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 18. What language defines the behavior of a web page?  ",
+		"answer": [
+			{
+				"content": "A. HTML",
+				"isCorrect": false
+			},
+			{
+				"content": "B. CSS",
+				"isCorrect": false
+			},
+			{
+				"content": "C. XML",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Java Script",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 19. File is a server-side JavaScript object?  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": true
+			},
+			{
+				"content": "B. False",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 20. What is the alternate name for Java script?  ",
+		"answer": [
+			{
+				"content": "A. LimeScript",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Both a and d",
+				"isCorrect": false
+			},
+			{
+				"content": "C. ECMScript",
+				"isCorrect": false
+			},
+			{
+				"content": "D. ECMAScript",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 21. Is it possible to declare a variable in Java Script along its type?  ",
+		"answer": [
+			{
+				"content": "A. Yes",
+				"isCorrect": true
+			},
+			{
+				"content": "B. No",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 22. Which of the following method is used to evaluate a string of Java Script code in the context of the specified object?  ",
+		"answer": [
+			{
+				"content": "A. Eval",
+				"isCorrect": true
+			},
+			{
+				"content": "B. ParseDoule",
+				"isCorrect": false
+			},
+			{
+				"content": "C. ParseObject",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Efloat",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 23. Java Script entities start with ____________ and end with ______________  ",
+		"answer": [
+			{
+				"content": "A. Semicolon, colon",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Semicolon, Ampersand",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Ampersand, colon",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Ampersand, semicolon",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 24. How to append a value to an array of Java Script?  ",
+		"answer": [
+			{
+				"content": "A. arr[arr.length] = value",
+				"isCorrect": true
+			},
+			{
+				"content": "B. arr[arr.length+1] = new Arrays()",
+				"isCorrect": false
+			},
+			{
+				"content": "C. arr[arr.length-1] = value",
+				"isCorrect": false
+			},
+			{
+				"content": "D. arr[arr.length*1] = value",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	}
+]

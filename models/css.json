@@ -1,0 +1,822 @@
+[
+	{
+		"question": " 1. How can you created rounded corners using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. border[round]: 30px;",
+				"isCorrect": false
+			},
+			{
+				"content": "B. corner-effect: round;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. border-radius: 30px;",
+				"isCorrect": true
+			},
+			{
+				"content": "D. alpha-effect: round-corner;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 2. How do you add shadow to elements in CSS3?  ",
+		"answer": [
+			{
+				"content": "A. box-shadow: 10px 10px 5px grey;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. shadow-right: 10px shadow-bottom: 10px;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. shadow-color: grey;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. alpha-effect[shadow]: 10px 10px 5px grey;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 3. How to you modify a border image using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. border: url(image.png);",
+				"isCorrect": false
+			},
+			{
+				"content": "B. border-variable: image url(image.png);",
+				"isCorrect": false
+			},
+			{
+				"content": "C. border-image: url(border.png) 30 30 round;",
+				"isCorrect": true
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 4. How to resize a background image using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. background-size: 80px 60px;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. bg-dimensions: 80px 60px;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. background-proportion: 80px 60px;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. alpha-effect: bg-resize 80px 60px;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 5. How to add text shadow using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. font: shadowed 5px 5px 5px grey;",
+				"isCorrect": false
+			},
+			{
+				"content": "B. font-shadow: 5px 5px 5px grey;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. text-shadow: 5px 5px 5px grey;",
+				"isCorrect": true
+			},
+			{
+				"content": "D. shadow: text 5px 5px 5px grey;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 6. How to force a word wrap using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. word-wrap: break-word;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. text-wrap: break-word;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. text-wrap: force;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. text-width: set;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 7. Which of these are valid CSS3 transformation statements.  ",
+		"answer": [
+			{
+				"content": "A. matrix()",
+				"isCorrect": true
+			},
+			{
+				"content": "B. modify()",
+				"isCorrect": false
+			},
+			{
+				"content": "C. skip()",
+				"isCorrect": false
+			},
+			{
+				"content": "D. simulate()",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 8. How to rotate objects using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. object-rotation: 30deg;",
+				"isCorrect": false
+			},
+			{
+				"content": "B. transform: rotate(30deg);",
+				"isCorrect": true
+			},
+			{
+				"content": "C. rotate-object: 30deg;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. transform: rotate-30deg-clockwise;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 9. How to re-size/scale objects using CSS3?\n  ",
+		"answer": [
+			{
+				"content": "A. transform: scale(2,4);",
+				"isCorrect": true
+			},
+			{
+				"content": "B. scale-object: 2,4;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. scale: (2,4);",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 10. How to create transition effects using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. transition: width 2s;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. transition-duration: 2s; transition-effect: width;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. alpha-effect: transition (width,2s);",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 11. Look at the code. What piece of code is missing when make a text shadow?\n  #basicTextShadow p{\n  text-shadow: 1px 1px 3px;\n  }\n  ",
+		"answer": [
+			{
+				"content": "A. the color",
+				"isCorrect": false
+			},
+			{
+				"content": "B. the element",
+				"isCorrect": false
+			},
+			{
+				"content": "C. the id name",
+				"isCorrect": true
+			},
+			{
+				"content": "D. the text shadow height",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 12. Does the box-shadow support all browsers ?  ",
+		"answer": [
+			{
+				"content": "A. true",
+				"isCorrect": true
+			},
+			{
+				"content": "B. false",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 13. True or False. In vertical offsets for box shadows, the (-1) means that the box-shadow will be below the box?  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": false
+			},
+			{
+				"content": "B. False",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 14. What does RGBa mean?  ",
+		"answer": [
+			{
+				"content": "A. Review Get assistance Back-up your information acquire proof",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Red Green Blue alpha",
+				"isCorrect": true
+			},
+			{
+				"content": "C. Red Gray Brown alpha",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Red Gold Black alpha",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 15. __________ is a property that allows developers to add rounded corners on the design elements.  ",
+		"answer": [
+			{
+				"content": "A. Corner",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Box Shadow",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Round Corner",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Border-Radius",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 16. Box-Shadow is a property that allows developers to apply a....  ",
+		"answer": [
+			{
+				"content": "A. Border",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Drop Shadow",
+				"isCorrect": true
+			},
+			{
+				"content": "C. Rounded Corner",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Background",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 17. If you put a value of 0 for a Border-Radius what will happen?.\n  \n  ",
+		"answer": [
+			{
+				"content": "A. The Corner will curve horizontal.",
+				"isCorrect": false
+			},
+			{
+				"content": "B. The Corner will be square.",
+				"isCorrect": true
+			},
+			{
+				"content": "C. The Corner will curve vertical.",
+				"isCorrect": false
+			},
+			{
+				"content": "D. The world will end.",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 18. Which prefix do you need to get CSS3 properties to work on older Mozilla Firefox browsers?  ",
+		"answer": [
+			{
+				"content": "A. -webkit-",
+				"isCorrect": false
+			},
+			{
+				"content": "B. -moz-",
+				"isCorrect": true
+			},
+			{
+				"content": "C. -o-",
+				"isCorrect": false
+			},
+			{
+				"content": "D. -gecko-",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 19. What does the a stand for in RGBa?  ",
+		"answer": [
+			{
+				"content": "A. alpha",
+				"isCorrect": true
+			},
+			{
+				"content": "B. aqua",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Apple",
+				"isCorrect": false
+			},
+			{
+				"content": "D. about",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 20. What are the first three values of text-shadow in order?  ",
+		"answer": [
+			{
+				"content": "A. vertical, blur, horizontal",
+				"isCorrect": false
+			},
+			{
+				"content": "B. blur, vertical, horizontal",
+				"isCorrect": false
+			},
+			{
+				"content": "C. vertical, horizontal, blur",
+				"isCorrect": false
+			},
+			{
+				"content": "D. horizontal, vertical, blur",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 21. Can you have multiple box-shadows?  ",
+		"answer": [
+			{
+				"content": "A. yes",
+				"isCorrect": true
+			},
+			{
+				"content": "B. no",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 22. How do four values work on border-radius  ",
+		"answer": [
+			{
+				"content": "A. top, bottom, left, right",
+				"isCorrect": false
+			},
+			{
+				"content": "B. up, down, front, behind",
+				"isCorrect": false
+			},
+			{
+				"content": "C. top-left, top-right, bottom-right, bottom-left",
+				"isCorrect": true
+			},
+			{
+				"content": "D. bottom-left, bottom-right, top-right, top-left",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 23. How can you created rounded corners using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. border[round]: 30px;",
+				"isCorrect": false
+			},
+			{
+				"content": "B. corner-effect: round;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. border-radius: 30px;",
+				"isCorrect": true
+			},
+			{
+				"content": "D. alpha-effect: round-corner;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 24. Has CSS3 been fully supported by all browsers?  ",
+		"answer": [
+			{
+				"content": "A. Yes",
+				"isCorrect": false
+			},
+			{
+				"content": "B. No",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 25. How to add text shadow using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. font: shadowed 5px 5px 5px grey;",
+				"isCorrect": false
+			},
+			{
+				"content": "B. font-shadow: 5px 5px 5px grey;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. text-shadow: 5px 5px 5px grey;",
+				"isCorrect": true
+			},
+			{
+				"content": "D. shadow: text 5px 5px 5px grey;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 26. How to rotate objects using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. object-rotation: 30deg;",
+				"isCorrect": false
+			},
+			{
+				"content": "B. transform: rotate(30deg);",
+				"isCorrect": true
+			},
+			{
+				"content": "C. rotate-object: 30deg;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. transform: rotate-30deg-clockwise;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 27. How to create transition effects using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. transition: width 2s;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. transition-duration: 2s; transition-effect: width;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. alpha-effect: transition (width,2s);",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 28. How to force a word wrap using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. word-wrap: break-word;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. words-wrap: break-word;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. text-wrap: break-word;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. text-width: word-wrap;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 29. How to you modify a border image using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. border: url(image.png);",
+				"isCorrect": false
+			},
+			{
+				"content": "B. border: image url(image.png);",
+				"isCorrect": false
+			},
+			{
+				"content": "C. border-image: url(border.png) 30 30 round;",
+				"isCorrect": true
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 30. How to resize a background image using CSS3?  ",
+		"answer": [
+			{
+				"content": "A. background-size: 80px 60px;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. background-proportion: 80px 60px;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. alpha-effect: bg-resize 80px 60px;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 31. What is the new, easier way to import or modify fonts with CSS3?  ",
+		"answer": [
+			{
+				"content": "A. font-source: url(\\’Sansation_Light.eot\\’) format(\\”opentype\\”);",
+				"isCorrect": false
+			},
+			{
+				"content": "B. @font-face",
+				"isCorrect": false
+			},
+			{
+				"content": "C. font-family: @import \\”Sansation_Light.eot\\”;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 32. A navigation bar needs standard HTML as a base  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": true
+			},
+			{
+				"content": "B. False",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 33. The ____________ property specifies the stack order of an element  ",
+		"answer": [
+			{
+				"content": "A. d-index",
+				"isCorrect": false
+			},
+			{
+				"content": "B. s-index",
+				"isCorrect": false
+			},
+			{
+				"content": "C. x-index",
+				"isCorrect": false
+			},
+			{
+				"content": "D. z-index",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 34. What is css Float?  ",
+		"answer": [
+			{
+				"content": "A. allows other elements to wrap around an element",
+				"isCorrect": false
+			},
+			{
+				"content": "B. element can be pushed to the left or right",
+				"isCorrect": false
+			},
+			{
+				"content": "C. both a and b above",
+				"isCorrect": true
+			},
+			{
+				"content": "D. element can be pushed to any direction",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 35. The font-size value can be an absolute, or relative size  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": true
+			},
+			{
+				"content": "B. False",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 36. In CSS, it is not possible to specify different padding for different sides  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": false
+			},
+			{
+				"content": "B. False",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 37. ____________ property specifies an image to use as the background of an element  ",
+		"answer": [
+			{
+				"content": "A. backg-img",
+				"isCorrect": false
+			},
+			{
+				"content": "B. backg-image",
+				"isCorrect": false
+			},
+			{
+				"content": "C. background-img",
+				"isCorrect": false
+			},
+			{
+				"content": "D. background-image",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 38. The _____________ selector is used to specify a style for a single, unique element  ",
+		"answer": [
+			{
+				"content": "A. id",
+				"isCorrect": true
+			},
+			{
+				"content": "B. class",
+				"isCorrect": false
+			},
+			{
+				"content": "C. text",
+				"isCorrect": false
+			},
+			{
+				"content": "D. bit",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 39. Which of the below is the correct way to set a background image?  ",
+		"answer": [
+			{
+				"content": "A. body {background-image:url(paper.gif);}",
+				"isCorrect": false
+			},
+			{
+				"content": "B. body {background-image:url('paper.gif')};",
+				"isCorrect": false
+			},
+			{
+				"content": "C. body {background-image:url('paper.gif')}",
+				"isCorrect": false
+			},
+			{
+				"content": "D. body {background-image:url('paper.gif');}",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 40. Which of the below is the correct way to set a font size?  ",
+		"answer": [
+			{
+				"content": "A. h2 {font-size:200%;}",
+				"isCorrect": false
+			},
+			{
+				"content": "B. h2 {font-size:200px;}",
+				"isCorrect": false
+			},
+			{
+				"content": "C. both a and b above",
+				"isCorrect": true
+			},
+			{
+				"content": "D. h2 {font-size:200;}",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	}
+]

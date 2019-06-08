@@ -1,0 +1,958 @@
+[
+	{
+		"question": " 1. What is the difference between XML and HTML?  ",
+		"answer": [
+			{
+				"content": "A. HTML is used for exchanging data, XML is not.",
+				"isCorrect": false
+			},
+			{
+				"content": "B. XML is used for exchanging data, HTML is not",
+				"isCorrect": true
+			},
+			{
+				"content": "C. HTML can have user defined tags, XML cannot",
+				"isCorrect": false
+			}
+		],
+		"detail": "- XML (Extensible Markup Language) is a language that enables a user to define a representation of data or data structure where values are assigned in each field in the structure. \n- HTML (Hypertext Markup Language) is the markup language for constructing web pages. The markup commands employed in the web-based content signifies structure of the document and its layout to the browser."
+	},
+	{
+		"question": " 2. Opening Tag of HTML Tag is called as ________.  ",
+		"answer": [
+			{
+				"content": "A. Closed Tag",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Starting Tag",
+				"isCorrect": true
+			},
+			{
+				"content": "C. Forward Tag",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Enging Tag",
+				"isCorrect": false
+			}
+		],
+		"detail": "Technically, an HTML element is the collection of start tag, its attributes, an end tag and everything in between. On the other hand an HTML tag either opening or closing is used to mark the start or end of an element. \nHowever, in common usage the terms HTML element and HTML tag are interchangeable i.e. a tag is an element is a tag. For simplicity's sake of this website, the terms 'tag' and 'element' are used to mean the same thing — as it will define something on your web page."
+	},
+	{
+		"question": " 3. HTML stands for ________.  ",
+		"answer": [
+			{
+				"content": "A. Hyper Text  Markup Language",
+				"isCorrect": true
+			},
+			{
+				"content": "B. Hyper Text  Makeup Language",
+				"isCorrect": false
+			},
+			{
+				"content": "C. None of these",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Hyper Tech  Markup Language",
+				"isCorrect": false
+			}
+		],
+		"detail": "It is the way/language computers use to format/create webpages. The language/code is written in the form of 'tags' which are read and used to design/edit the visual elements in a web page."
+	},
+	{
+		"question": " 4. HTML program is saved using _________ extension.  ",
+		"answer": [
+			{
+				"content": "A. .htl",
+				"isCorrect": false
+			},
+			{
+				"content": "B. .html",
+				"isCorrect": true
+			},
+			{
+				"content": "C. .hml",
+				"isCorrect": false
+			},
+			{
+				"content": "D. .htlm",
+				"isCorrect": false
+			}
+		],
+		"detail": "Another file name: .htm\nAn HTM file is an HTML webpage used by web browsers, such as Google Chrome, Microsoft Edge, and Mozilla Firefox. It may contain hyperlinks and markup language, which defines the elements and layout of a webpage.\nHTM files can also be opened using a basic text editor since the file is saved in a plain text format. However, a source code editor should be used to modify HTM files because they come with helpful coding features. HTM files serve the exact same purpose as .HTML files, but are much less common. The .htm extension arose with the use of Microsoft web development software, such as FrontPage, SharePoint Designer, and Expression Web."
+	},
+	{
+		"question": " 5. HTML Code written in MAC can be browsed in a PC with Window 7 installed , User will be able to see same design that was designed on the MAC Pc.  ",
+		"answer": [
+			{
+				"content": "A. True",
+				"isCorrect": true
+			},
+			{
+				"content": "B. False",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 6. Who was the primary author of HTML?  ",
+		"answer": [
+			{
+				"content": "A. Brendan Eich",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Sabeer Bhatiya",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Google Inc.",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Tim Berners-Lee",
+				"isCorrect": true
+			}
+		],
+		"detail": "https://www.thoughtco.com/history-of-html-1991418"
+	},	
+	{
+		"question": " 7. Which of the following is valid colour code ?  ",
+		"answer": [
+			{
+				"content": "A. #000000;",
+				"isCorrect": true
+			},
+			{
+				"content": "B. #0000000;",
+				"isCorrect": false
+			},
+			{
+				"content": "C. #00000000;",
+				"isCorrect": false
+			},
+			{
+				"content": "D. #000000000;",
+				"isCorrect": false
+			},
+			{
+				"content": "E. #000;",
+				"isCorrect": false
+			}
+		],
+		"detail": "Hex: Hexadecimal"
+	},
+	{
+		"question": " 8. Caption Tag in HTML ?  ",
+		"answer": [
+			{
+				"content": "A. Is used to display the Title for table at the top",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Is used to display the Title for table at the bottom",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Both",
+				"isCorrect": true
+			},
+			{
+				"content": "D. None",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 9. Which of the following is used increase the row height?  ",
+		"answer": [
+			{
+				"content": "A. Cellspacing",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Cellpadding",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Row span",
+				"isCorrect": true
+			},
+			{
+				"content": "D. Col span",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 10. Which of the following is used increase the col width?  ",
+		"answer": [
+			{
+				"content": "A. Cellspacing",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Cellpadding",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Row span",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Col span",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 11. DOM stands for  ",
+		"answer": [
+			{
+				"content": "A. Document object model",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Data object model",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Document Oriented model",
+				"isCorrect": true
+			},
+			{
+				"content": "D. Data oriented model",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 12. What is mean by DTD ?  ",
+		"answer": [
+			{
+				"content": "A. Document type data",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Data type definition",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Document type definition",
+				"isCorrect": true
+			},
+			{
+				"content": "D. Definition type document",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 13. Text/Html is called the __________ of the page  ",
+		"answer": [
+			{
+				"content": "A. Content type",
+				"isCorrect": false
+			},
+			{
+				"content": "B. MIME type",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Content type/MIME type",
+				"isCorrect": true
+			},
+			{
+				"content": "D. None of these",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 14. The href attribute in the link tag specifies the:  ",
+		"answer": [
+			{
+				"content": "A. Destination of a link.",
+				"isCorrect": true
+			},
+			{
+				"content": "B. Link",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Hypertext",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None of the above",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 15. Is width=”100” and width=”100%” the same?  ",
+		"answer": [
+			{
+				"content": "A. No",
+				"isCorrect": true
+			},
+			{
+				"content": "B. Yes",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 16. What are <div> tags used for?  ",
+		"answer": [
+			{
+				"content": "A. To replace paragraphs. i.e. p tags",
+				"isCorrect": false
+			},
+			{
+				"content": "B. To logically divide the paragraphs",
+				"isCorrect": false
+			},
+			{
+				"content": "C. To logically divide the document",
+				"isCorrect": true
+			},
+			{
+				"content": "D. To provide space between tables",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 17. How can we resize the image?  ",
+		"answer": [
+			{
+				"content": "A. Using resize attribute",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Using height and width",
+				"isCorrect": true
+			},
+			{
+				"content": "C. Using size attribute",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Using rs attribute",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 18. When creating a Web document, what format is used to express an image's height and width?  ",
+		"answer": [
+			{
+				"content": "A. Pixels",
+				"isCorrect": true
+			},
+			{
+				"content": "B. Centimeters",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Dots per inch",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Inches",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 19. What are meta tags used for?  ",
+		"answer": [
+			{
+				"content": "A. To store information usually relevant to browsers and search engines",
+				"isCorrect": true
+			},
+			{
+				"content": "B. To only store information usually relevant to browsers",
+				"isCorrect": false
+			},
+			{
+				"content": "C. To only store information about search engines",
+				"isCorrect": false
+			},
+			{
+				"content": "D. To store information about external links",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},	
+	{
+		"question": " 20. ASCII stands for______  ",
+		"answer": [
+			{
+				"content": "A. American Standard Code for Informal Interchange",
+				"isCorrect": false
+			},
+			{
+				"content": "B. American Standard Code for Interchanging Information",
+				"isCorrect": false
+			},
+			{
+				"content": "C. American Standard Code for Information Interchange",
+				"isCorrect": true
+			},
+			{
+				"content": "D. American Standard Code for Information Interval",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 21. While searching on the Internet, you decide to check in more than one search engine because?  ",
+		"answer": [
+			{
+				"content": "A. all web users prefer this technique",
+				"isCorrect": false
+			},
+			{
+				"content": "B. they will avoid repetition of information",
+				"isCorrect": false
+			},
+			{
+				"content": "C. each engine produces different results",
+				"isCorrect": true
+			},
+			{
+				"content": "D. they will avoid false information",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 22. <meta> tag cannot be defined in the <head> tag.  ",
+		"answer": [
+			{
+				"content": "A. False",
+				"isCorrect": true
+			},
+			{
+				"content": "B. True",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 23. Can I play audios in HTML?  ",
+		"answer": [
+			{
+				"content": "A. No",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Yes",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 24. HTML documents are saved in?  ",
+		"answer": [
+			{
+				"content": "A. ASCII text",
+				"isCorrect": true
+			},
+			{
+				"content": "B. Machine language codes",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Special Binary format",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None of these",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 25. What does an HTML tag do?  ",
+		"answer": [
+			{
+				"content": "A. It determines the organizational structure of your Web site.",
+				"isCorrect": false
+			},
+			{
+				"content": "B. It connects your web site to an operating environment.",
+				"isCorrect": false
+			},
+			{
+				"content": "C. It hides programming instructions from view.",
+				"isCorrect": false
+			},
+			{
+				"content": "D. It specifies formatting and layout instructions for your web page.",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 26. Which of the following are attributes of Font Tag ?  ",
+		"answer": [
+			{
+				"content": "A. Face",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Size",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Color",
+				"isCorrect": false
+			},
+			{
+				"content": "D. All of above",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 27. ____________tag is used to specify an inline frame  ",
+		"answer": [
+			{
+				"content": "A. < jframe>",
+				"isCorrect": false
+			},
+			{
+				"content": "B. < frameset>",
+				"isCorrect": false
+			},
+			{
+				"content": "C. < iframe>",
+				"isCorrect": true
+			},
+			{
+				"content": "D. < frame>",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 28. How many graphic object types are allowed by SVG?  ",
+		"answer": [
+			{
+				"content": "A. 2",
+				"isCorrect": false
+			},
+			{
+				"content": "B. 5",
+				"isCorrect": false
+			},
+			{
+				"content": "C. 3",
+				"isCorrect": true
+			},
+			{
+				"content": "D. 7",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 29. <canvas > element is only a ____________to the graphics.  ",
+		"answer": [
+			{
+				"content": "A. component",
+				"isCorrect": false
+			},
+			{
+				"content": "B. container",
+				"isCorrect": true
+			},
+			{
+				"content": "C. attribute",
+				"isCorrect": false
+			},
+			{
+				"content": "D. method",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 30. HTML is based on which language  ",
+		"answer": [
+			{
+				"content": "A. XHTML",
+				"isCorrect": false
+			},
+			{
+				"content": "B. XML",
+				"isCorrect": false
+			},
+			{
+				"content": "C. SGML",
+				"isCorrect": true
+			},
+			{
+				"content": "D. DTD",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 31. HTML 5 supports all form controls from HTML 4?  ",
+		"answer": [
+			{
+				"content": "A. Yes",
+				"isCorrect": true
+			},
+			{
+				"content": "B. No",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 32. The __________  is an instruction to the web browser about what version of HTML the page is written in  ",
+		"answer": [
+			{
+				"content": "A. < !DOCTYPE>",
+				"isCorrect": true
+			},
+			{
+				"content": "B. < DOCTYPE>",
+				"isCorrect": false
+			},
+			{
+				"content": "C. < TYPE>",
+				"isCorrect": false
+			},
+			{
+				"content": "D. < !TYPE>",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 33. Frame concept is available in HTML5  ",
+		"answer": [
+			{
+				"content": "A. YES",
+				"isCorrect": false
+			},
+			{
+				"content": "B. NO",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 34. Ancestor of all other elements on the page is called________  ",
+		"answer": [
+			{
+				"content": "A. parent",
+				"isCorrect": false
+			},
+			{
+				"content": "B. ancestor",
+				"isCorrect": false
+			},
+			{
+				"content": "C. root element",
+				"isCorrect": false
+			},
+			{
+				"content": "D. siblings",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 35. Which of the following are input type attribute in html5?\n 1) search\n2) datetime\n3) week\n 4) color\n5) track\n6) placeholder",
+		"answer": [
+			{
+				"content": "A. 1,2,3,4,6",
+				"isCorrect": false
+			},
+			{
+				"content": "B. 1,2,3,4,5",
+				"isCorrect": false
+			},
+			{
+				"content": "C. 2,3,4,5,6",
+				"isCorrect": false
+			},
+			{
+				"content": "D. 1,3,4,5,6",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 36. Canvas is able to draw the 2D graphics using---------------  ",
+		"answer": [
+			{
+				"content": "A. XML",
+				"isCorrect": false
+			},
+			{
+				"content": "B. HTML",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Java script",
+				"isCorrect": true
+			},
+			{
+				"content": "D. XHTML",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 37. What is W3C?  ",
+		"answer": [
+			{
+				"content": "A. World Wide Web Consortium",
+				"isCorrect": true
+			},
+			{
+				"content": "B. world wide web corporation",
+				"isCorrect": false
+			},
+			{
+				"content": "C. world wide web company",
+				"isCorrect": false
+			},
+			{
+				"content": "D. world wide web controlling",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 38. What is the correct HTML tag for adding a background color?  ",
+		"answer": [
+			{
+				"content": "A. < body background=”yellow”>",
+				"isCorrect": true
+			},
+			{
+				"content": "B. < background>yellow< backgound>",
+				"isCorrect": false
+			},
+			{
+				"content": "C. < bold style=”background-color:white”>",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None of these",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 39. What do you mean by SVG?  ",
+		"answer": [
+			{
+				"content": "A. Secondary vector graphics",
+				"isCorrect": false
+			},
+			{
+				"content": "B. scalable vertical graphics",
+				"isCorrect": false
+			},
+			{
+				"content": "C. Scalable vector graphics",
+				"isCorrect": true
+			},
+			{
+				"content": "D. scalable vector graph",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 40. Which of the following term describes the art of making dynamic and interactive web pages?  ",
+		"answer": [
+			{
+				"content": "A. DHTML",
+				"isCorrect": true
+			},
+			{
+				"content": "B. HTML",
+				"isCorrect": false
+			},
+			{
+				"content": "C. XHTML",
+				"isCorrect": false
+			},
+			{
+				"content": "D. XML",
+				"isCorrect": false
+			}
+		],
+		"detail": "DHTML is the combination of: HTML, JavaScript, HTML DOM, CSS"
+	},
+	{
+		"question": " 41. Attributes consist of a name and a value separated by  ___  sign  ",
+		"answer": [
+			{
+				"content": "A. ” ”",
+				"isCorrect": false
+			},
+			{
+				"content": "B. ,",
+				"isCorrect": false
+			},
+			{
+				"content": "C. =",
+				"isCorrect": true
+			},
+			{
+				"content": "D. ;",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 42. Is it possible to use HTML 5 for the mobile application?  ",
+		"answer": [
+			{
+				"content": "A. Yes",
+				"isCorrect": true
+			},
+			{
+				"content": "B. No",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 43. The sessionStorage object stores the data for __________  ",
+		"answer": [
+			{
+				"content": "A. one session",
+				"isCorrect": true
+			},
+			{
+				"content": "B. two session",
+				"isCorrect": false
+			},
+			{
+				"content": "C. three session",
+				"isCorrect": false
+			},
+			{
+				"content": "D. multiple session",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 44. Graphics defined by SVG is in_______ format.  ",
+		"answer": [
+			{
+				"content": "A. HTML",
+				"isCorrect": false
+			},
+			{
+				"content": "B. XML",
+				"isCorrect": true
+			},
+			{
+				"content": "C. XHTML",
+				"isCorrect": false
+			},
+			{
+				"content": "D. DTD",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 45. If background image is smaller than the screen, what will happen?  ",
+		"answer": [
+			{
+				"content": "A. It’ll be stretched",
+				"isCorrect": false
+			},
+			{
+				"content": "B. It’ll be repeated",
+				"isCorrect": true
+			},
+			{
+				"content": "C. It’ll leave blank space at the bottom of page",
+				"isCorrect": false
+			},
+			{
+				"content": "D. None of these",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " 46. Which attribute will play the  audio embed in the audio element  continuously?  ",
+		"answer": [
+			{
+				"content": "A. preload",
+				"isCorrect": false
+			},
+			{
+				"content": "B. control",
+				"isCorrect": false
+			},
+			{
+				"content": "C. loop",
+				"isCorrect": true
+			},
+			{
+				"content": "D. autoplay",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	}
+]
