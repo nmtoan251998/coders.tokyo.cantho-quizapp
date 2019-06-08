@@ -1,6 +1,6 @@
 [
 	{
-		"question": " 1. What is the difference between XML and HTML?  ",
+		"question": " What is the difference between XML and HTML ",
 		"answer": [
 			{
 				"content": "A. HTML is used for exchanging data, XML is not.",
@@ -18,7 +18,7 @@
 		"detail": "- XML (Extensible Markup Language) is a language that enables a user to define a representation of data or data structure where values are assigned in each field in the structure. \n- HTML (Hypertext Markup Language) is the markup language for constructing web pages. The markup commands employed in the web-based content signifies structure of the document and its layout to the browser."
 	},
 	{
-		"question": " 2. Opening Tag of HTML Tag is called as ________.  ",
+		"question": "  Opening Tag of HTML Tag is called as ________.  ",
 		"answer": [
 			{
 				"content": "A. Closed Tag",
@@ -40,7 +40,7 @@
 		"detail": "Technically, an HTML element is the collection of start tag, its attributes, an end tag and everything in between. On the other hand an HTML tag either opening or closing is used to mark the start or end of an element. \nHowever, in common usage the terms HTML element and HTML tag are interchangeable i.e. a tag is an element is a tag. For simplicity's sake of this website, the terms 'tag' and 'element' are used to mean the same thing — as it will define something on your web page."
 	},
 	{
-		"question": " 3. HTML stands for ________.  ",
+		"question": "  HTML stands for ________.  ",
 		"answer": [
 			{
 				"content": "A. Hyper Text  Markup Language",
@@ -62,7 +62,7 @@
 		"detail": "It is the way/language computers use to format/create webpages. The language/code is written in the form of 'tags' which are read and used to design/edit the visual elements in a web page."
 	},
 	{
-		"question": " 4. HTML program is saved using _________ extension.  ",
+		"question": "  HTML program is saved using _________ extension.  ",
 		"answer": [
 			{
 				"content": "A. .htl",
@@ -84,7 +84,7 @@
 		"detail": "Another file name: .htm\nAn HTM file is an HTML webpage used by web browsers, such as Google Chrome, Microsoft Edge, and Mozilla Firefox. It may contain hyperlinks and markup language, which defines the elements and layout of a webpage.\nHTM files can also be opened using a basic text editor since the file is saved in a plain text format. However, a source code editor should be used to modify HTM files because they come with helpful coding features. HTM files serve the exact same purpose as .HTML files, but are much less common. The .htm extension arose with the use of Microsoft web development software, such as FrontPage, SharePoint Designer, and Expression Web."
 	},
 	{
-		"question": " 5. HTML Code written in MAC can be browsed in a PC with Window 7 installed , User will be able to see same design that was designed on the MAC Pc.  ",
+		"question": "  HTML Code written in MAC can be browsed in a PC with Window 7 installed , User will be able to see same design that was designed on the MAC Pc.  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -98,7 +98,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 6. Who was the primary author of HTML?  ",
+		"question": " Who was the primary author of HTML   ",
 		"answer": [
 			{
 				"content": "A. Brendan Eich",
@@ -120,7 +120,7 @@
 		"detail": "https://www.thoughtco.com/history-of-html-1991418"
 	},	
 	{
-		"question": " 7. Which of the following is valid colour code ?  ",
+		"question": "  Which of the following is valid colour code    ",
 		"answer": [
 			{
 				"content": "A. #000000;",
@@ -146,7 +146,7 @@
 		"detail": "Hex: Hexadecimal"
 	},
 	{
-		"question": " 8. Caption Tag in HTML ?  ",
+		"question": " Caption Tag in HTML    ",
 		"answer": [
 			{
 				"content": "A. Is used to display the Title for table at the top",
@@ -168,7 +168,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 9. Which of the following is used increase the row height?  ",
+		"question": " Which of the following is used increase the row height   ",
 		"answer": [
 			{
 				"content": "A. Cellspacing",
@@ -190,7 +190,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 10. Which of the following is used increase the col width?  ",
+		"question": "  Which of the following is used increase the col width   ",
 		"answer": [
 			{
 				"content": "A. Cellspacing",
@@ -212,7 +212,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 11. DOM stands for  ",
+		"question": "  DOM stands for  ",
 		"answer": [
 			{
 				"content": "A. Document object model",
@@ -234,7 +234,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 12. What is mean by DTD ?  ",
+		"question": "  What is mean by DTD    ",
 		"answer": [
 			{
 				"content": "A. Document type data",
@@ -256,7 +256,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 13. Text/Html is called the __________ of the page  ",
+		"question": "  Text/Html is called the __________ of the page  ",
 		"answer": [
 			{
 				"content": "A. Content type",
@@ -278,7 +278,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 14. The href attribute in the link tag specifies the:  ",
+		"question": "  The href attribute in the link tag specifies the:  ",
 		"answer": [
 			{
 				"content": "A. Destination of a link.",
@@ -300,7 +300,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 15. Is width=”100” and width=”100%” the same?  ",
+		"question": "  Is width=”100” and width=”100%” the same   ",
 		"answer": [
 			{
 				"content": "A. No",
@@ -314,7 +314,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 16. What are <div> tags used for?  ",
+		"question": "  What are < div> tags used for   ",
 		"answer": [
 			{
 				"content": "A. To replace paragraphs. i.e. p tags",
@@ -336,7 +336,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 17. How can we resize the image?  ",
+		"question": " How can we resize the image   ",
 		"answer": [
 			{
 				"content": "A. Using resize attribute",
@@ -358,7 +358,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 18. When creating a Web document, what format is used to express an image's height and width?  ",
+		"question": " When creating a Web document, what format is used to express an image's height and width   ",
 		"answer": [
 			{
 				"content": "A. Pixels",
@@ -380,7 +380,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 19. What are meta tags used for?  ",
+		"question": " What are meta tags used for   ",
 		"answer": [
 			{
 				"content": "A. To store information usually relevant to browsers and search engines",
@@ -402,7 +402,7 @@
 		"detail": ""
 	},	
 	{
-		"question": " 20. ASCII stands for______  ",
+		"question": "  ASCII stands for______  ",
 		"answer": [
 			{
 				"content": "A. American Standard Code for Informal Interchange",
@@ -424,7 +424,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 21. While searching on the Internet, you decide to check in more than one search engine because?  ",
+		"question": "  While searching on the Internet, you decide to check in more than one search engine because   ",
 		"answer": [
 			{
 				"content": "A. all web users prefer this technique",
@@ -446,7 +446,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 22. <meta> tag cannot be defined in the <head> tag.  ",
+		"question": "  <meta> tag cannot be defined in the <head> tag.  ",
 		"answer": [
 			{
 				"content": "A. False",
@@ -460,7 +460,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 23. Can I play audios in HTML?  ",
+		"question": "  Can I play audios in HTML   ",
 		"answer": [
 			{
 				"content": "A. No",
@@ -474,7 +474,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 24. HTML documents are saved in?  ",
+		"question": "  HTML documents are saved in   ",
 		"answer": [
 			{
 				"content": "A. ASCII text",
@@ -496,7 +496,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 25. What does an HTML tag do?  ",
+		"question": "  What does an HTML tag do   ",
 		"answer": [
 			{
 				"content": "A. It determines the organizational structure of your Web site.",
@@ -518,7 +518,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 26. Which of the following are attributes of Font Tag ?  ",
+		"question": "  Which of the following are attributes of Font Tag    ",
 		"answer": [
 			{
 				"content": "A. Face",
@@ -540,7 +540,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 27. ____________tag is used to specify an inline frame  ",
+		"question": "  ____________tag is used to specify an inline frame  ",
 		"answer": [
 			{
 				"content": "A. < jframe>",
@@ -562,7 +562,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 28. How many graphic object types are allowed by SVG?  ",
+		"question": "  How many graphic object types are allowed by SVG   ",
 		"answer": [
 			{
 				"content": "A. 2",
@@ -584,7 +584,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 29. <canvas > element is only a ____________to the graphics.  ",
+		"question": "  < canvas> element is only a ____________to the graphics.  ",
 		"answer": [
 			{
 				"content": "A. component",
@@ -606,7 +606,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 30. HTML is based on which language  ",
+		"question": " HTML is based on which language  ",
 		"answer": [
 			{
 				"content": "A. XHTML",
@@ -628,7 +628,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 31. HTML 5 supports all form controls from HTML 4?  ",
+		"question": "  HTML 5 supports all form controls from HTML 4   ",
 		"answer": [
 			{
 				"content": "A. Yes",
@@ -642,7 +642,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 32. The __________  is an instruction to the web browser about what version of HTML the page is written in  ",
+		"question": "  The __________  is an instruction to the web browser about what version of HTML the page is written in  ",
 		"answer": [
 			{
 				"content": "A. < !DOCTYPE>",
@@ -664,7 +664,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 33. Frame concept is available in HTML5  ",
+		"question": "  Frame concept is available in HTML5  ",
 		"answer": [
 			{
 				"content": "A. YES",
@@ -678,7 +678,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 34. Ancestor of all other elements on the page is called________  ",
+		"question": "  Ancestor of all other elements on the page is called________  ",
 		"answer": [
 			{
 				"content": "A. parent",
@@ -700,7 +700,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 35. Which of the following are input type attribute in html5?\n 1) search\n2) datetime\n3) week\n 4) color\n5) track\n6) placeholder",
+		"question": "  Which of the following are input type attribute in html5 <br/>1) search<br/>2) datetime<br/>3) week<br/>4) color<br/>5) track<br/>6) placeholder",
 		"answer": [
 			{
 				"content": "A. 1,2,3,4,6",
@@ -722,7 +722,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 36. Canvas is able to draw the 2D graphics using---------------  ",
+		"question": " Canvas is able to draw the 2D graphics using_________  ",
 		"answer": [
 			{
 				"content": "A. XML",
@@ -744,7 +744,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 37. What is W3C?  ",
+		"question": "  What is W3C  ",
 		"answer": [
 			{
 				"content": "A. World Wide Web Consortium",
@@ -766,7 +766,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 38. What is the correct HTML tag for adding a background color?  ",
+		"question": "  What is the correct HTML tag for adding a background color   ",
 		"answer": [
 			{
 				"content": "A. < body background=”yellow”>",
@@ -788,7 +788,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 39. What do you mean by SVG?  ",
+		"question": " What do you mean by SVG   ",
 		"answer": [
 			{
 				"content": "A. Secondary vector graphics",
@@ -810,7 +810,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 40. Which of the following term describes the art of making dynamic and interactive web pages?  ",
+		"question": " Which of the following term describes the art of making dynamic and interactive web pages   ",
 		"answer": [
 			{
 				"content": "A. DHTML",
@@ -832,7 +832,7 @@
 		"detail": "DHTML is the combination of: HTML, JavaScript, HTML DOM, CSS"
 	},
 	{
-		"question": " 41. Attributes consist of a name and a value separated by  ___  sign  ",
+		"question": "  Attributes consist of a name and a value separated by  ___  sign  ",
 		"answer": [
 			{
 				"content": "A. ” ”",
@@ -854,7 +854,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 42. Is it possible to use HTML 5 for the mobile application?  ",
+		"question": "  Is it possible to use HTML 5 for the mobile application   ",
 		"answer": [
 			{
 				"content": "A. Yes",
@@ -868,7 +868,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 43. The sessionStorage object stores the data for __________  ",
+		"question": "  The sessionStorage object stores the data for __________  ",
 		"answer": [
 			{
 				"content": "A. one session",
@@ -890,7 +890,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 44. Graphics defined by SVG is in_______ format.  ",
+		"question": "  Graphics defined by SVG is in_______ format.  ",
 		"answer": [
 			{
 				"content": "A. HTML",
@@ -912,7 +912,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 45. If background image is smaller than the screen, what will happen?  ",
+		"question": "  If background image is smaller than the screen, what will happen   ",
 		"answer": [
 			{
 				"content": "A. It’ll be stretched",
@@ -934,7 +934,7 @@
 		"detail": ""
 	},
 	{
-		"question": " 46. Which attribute will play the  audio embed in the audio element  continuously?  ",
+		"question": "  Which attribute will play the  audio embed in the audio element  continuously   ",
 		"answer": [
 			{
 				"content": "A. preload",
