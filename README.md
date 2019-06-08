@@ -21,13 +21,7 @@ $ node server.js
 View the website at: http://localhost:3000
 
 ## TODO
-1. General: 
-    * Database: refactor fake data into database using mongo
-    * UI: re-design the Home-Dashboard-Member pages
-2. User page: 
-    * Server side pagination
-3. Admin:
-    * Make admin page
+Add explantion details
 
 ## People
 
