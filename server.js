@@ -1,7 +1,7 @@
 const server = require('express')();
 const bodyParser = require('body-parser');
 const express = require('express');
-
+const port = 3000;
 const router = require('./routes/route');
 
 // clear the console yeye
@@ -18,7 +18,15 @@ server.use(express.static('public'));
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: false }));
 
+// header middleware allow html request
+server.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, authorization");
+    res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, PATCH');
+    next();
+})
+
 // use route
 server.use(router);
 
-server.listen(3000, () => console.log(`Server is started`));
+server.listen(port, () => console.log(`Server is started on port ${port}`));
