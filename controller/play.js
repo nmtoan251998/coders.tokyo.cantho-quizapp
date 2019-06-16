@@ -6,9 +6,12 @@ module.exports.getQuestions = (req, res) => {
 
 module.exports.postAnswer = (req, res) => {        
     const answerResult = req.body.answerResult.toString().trim() === "true" ? true : false; 
-    const answerExplain = req.body.answerExplain.toString().trim();     
-    console.log(answerExplain)   
+    const answerExplain = req.body.answerExplain.toString().trim();
 
+    // receive data from ajax and send data back to UI
+    // answerResult === undefined -> choose answer please
+    // answerResult === false -> wrong please
+    // answerResult === true -> correct please
     if(req.body.answerResult.toString().trim() === "undefined") {
         return res.send(`<div id="answer-result-displayer" class="alert alert-secondary w-75 mx-auto text-center" role="alert">Choose an answer</div>`)
     } 

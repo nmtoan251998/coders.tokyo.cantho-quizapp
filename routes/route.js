@@ -30,9 +30,10 @@ router.route('/play')
     .get(playController.getQuestions)
     .post(playController.postAnswer);
 
-// route    /dashboard
-// desc     dashboard page
-router.route('/dashboard').get(leaderboardController.getLeaderboard);
+// route    /leaderboard
+// desc     leaderboard page
+router.route('/leaderboard')
+    .get(leaderboardController.getLeaderboard);
 
 // route    /user
 // desc     user page

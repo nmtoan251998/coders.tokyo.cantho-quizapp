@@ -9,9 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {   
             const answer = elements.filter(el => {
                 if(el.checked === true) {
-                    answerExplain = el.dataset.answerexplain;    
-                    console.log(answerExplain)                
-                    console.log(el)
+                    answerExplain = el.dataset.answerexplain;                        
                     return el;
                 }                
             }).shift().value;
@@ -23,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     document.getElementById('answer-result').innerHTML = ajax.responseText;                    
                 }
             };
+            // if answerResult === true, send answerResult and explanation content
             ajax.send('answerResult=' +answer +'&answerExplain=' +answerExplain);
         } catch(err)    {            
             let ajax = new XMLHttpRequest;
@@ -33,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     document.getElementById('answer-result').innerHTML = ajax.responseText;                                
                 }
             };            
+            // if answerResult === true, send answerResult = undefined for server to serve
             ajax.send('answerResult=undefined' +'&answerExplain=' +answerExplain);
         }                                
     });            
