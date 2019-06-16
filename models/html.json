@@ -18,7 +18,7 @@
 		"detail": "- XML (Extensible Markup Language) is a language that enables a user to define a representation of data or data structure where values are assigned in each field in the structure. \n- HTML (Hypertext Markup Language) is the markup language for constructing web pages. The markup commands employed in the web-based content signifies structure of the document and its layout to the browser."
 	},
 	{
-		"question": "  Opening Tag of HTML Tag is called as ________.  ",
+		"question": "  Opening Tag of HTML Tag is also called as ________.  ",
 		"answer": [
 			{
 				"content": "A. Closed Tag",
@@ -168,44 +168,44 @@
 		"detail": ""
 	},
 	{
-		"question": " Which of the following is used increase the row height   ",
+		"question": " Which of the following is used increase the row height of a row of < table> in HTML  ",
 		"answer": [
 			{
-				"content": "A. Cellspacing",
+				"content": "A. cellspacing",
 				"isCorrect": false
 			},
 			{
-				"content": "B. Cellpadding",
+				"content": "B. cellpadding",
 				"isCorrect": false
 			},
 			{
-				"content": "C. Row span",
+				"content": "C. rowspan",
 				"isCorrect": true
 			},
 			{
-				"content": "D. Col span",
+				"content": "D. colspan",
 				"isCorrect": false
 			}
 		],
 		"detail": ""
 	},
 	{
-		"question": "  Which of the following is used increase the col width   ",
+		"question": "  Which of the following is used increase the column height of a column of < table> in HTML   ",
 		"answer": [
 			{
-				"content": "A. Cellspacing",
+				"content": "A. cellspacing",
 				"isCorrect": false
 			},
 			{
-				"content": "B. Cellpadding",
+				"content": "B. cellpadding",
 				"isCorrect": false
 			},
 			{
-				"content": "C. Row span",
+				"content": "C. rowspan",
 				"isCorrect": false
 			},
 			{
-				"content": "D. Col span",
+				"content": "D. colspan",
 				"isCorrect": true
 			}
 		],
@@ -215,19 +215,19 @@
 		"question": "  DOM stands for  ",
 		"answer": [
 			{
-				"content": "A. Document object model",
+				"content": "A. Document Object Model",
 				"isCorrect": true
 			},
 			{
-				"content": "B. Data object model",
+				"content": "B. Data Object Model",
 				"isCorrect": false
 			},
 			{
-				"content": "C. Document Oriented model",
+				"content": "C. Document Oriented Model",
 				"isCorrect": false
 			},
 			{
-				"content": "D. Data oriented model",
+				"content": "D. Data Oriented Model",
 				"isCorrect": false
 			}
 		],
@@ -256,7 +256,7 @@
 		"detail": ""
 	},
 	{
-		"question": "  Text/Html is called the __________ of the page  ",
+		"question": "  text/html is called the __________ of the page  ",
 		"answer": [
 			{
 				"content": "A. Content type",

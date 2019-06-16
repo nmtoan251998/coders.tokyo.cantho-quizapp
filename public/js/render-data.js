@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
         ajax.open('GET', `http://localhost:3000/data/${topic}`, false);
 
         ajax.send();        
-        return ajax.responseText;             
-    };        
+        return ajax.responseText;
+    };
     data = JSON.parse(getTopicData(topic));        
 
     function renderTopicQuestions() {        

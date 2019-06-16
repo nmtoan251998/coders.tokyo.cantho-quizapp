@@ -1,28 +1,6 @@
-[
+[	
 	{
-		"question": "  Which of the following is a server-side Java Script object  ",
-		"answer": [
-			{
-				"content": "A. Function",
-				"isCorrect": false
-			},
-			{
-				"content": "B. File",
-				"isCorrect": true
-			},
-			{
-				"content": "C. FileUpload",
-				"isCorrect": false
-			},
-			{
-				"content": "D. Date",
-				"isCorrect": false
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "  Java script can be used for Storing the form's contents to a database file on the server  ",
+		"question": "  Javascript can be used for storing the form's contents to a database file on the server  ",
 		"answer": [
 			{
 				"content": "A. False",
@@ -33,7 +11,7 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
+		"detail": "Javascript is client-side language, so it cannot be used for interacting with server directly"
 	},
 	{
 		"question": "  To insert a JavaScript into an HTML page, which tag is used  ",
@@ -55,10 +33,10 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
+		"detail": "Internal and External inserting"
 	},
 	{
-		"question": "  Which of the below is used in Java script to insert special characters  ",
+		"question": "  Which of the below is used in Javascript to insert special characters  ",
 		"answer": [
 			{
 				"content": "A. &",
@@ -78,45 +56,9 @@
 			}
 		],
 		"detail": ""
-	},
+	},		
 	{
-		"question": "  How does Java Script store dates in objects of Date type  ",
-		"answer": [
-			{
-				"content": "A. The number of days since January 1st, 1900",
-				"isCorrect": false
-			},
-			{
-				"content": "B. The number of seconds since January 1st, 1970",
-				"isCorrect": false
-			},
-			{
-				"content": "C. The number of milliseconds since January 1st, 1970",
-				"isCorrect": true
-			},
-			{
-				"content": "D. The number of picoseconds since January 1st, 1970",
-				"isCorrect": false
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "  C-style block-level scoping is not supported in Java script  ",
-		"answer": [
-			{
-				"content": "A. False",
-				"isCorrect": false
-			},
-			{
-				"content": "B. True",
-				"isCorrect": true
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "  JavaScript ignores extra spaces  ",
+		"question": "  Javascript ignores extra spaces  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -172,75 +114,9 @@
 			}
 		],
 		"detail": ""
-	},
+	},			
 	{
-		"question": "  Which of the following is the tainted property of a window object in Java Script  ",
-		"answer": [
-			{
-				"content": "A. Pathname",
-				"isCorrect": false
-			},
-			{
-				"content": "B. Protocol",
-				"isCorrect": false
-			},
-			{
-				"content": "C. Defaultstatus",
-				"isCorrect": true
-			},
-			{
-				"content": "D. Host",
-				"isCorrect": false
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "       Which attribute needs to be changed to make elements invisible  ",
-		"answer": [
-			{
-				"content": "A. visibilty",
-				"isCorrect": true
-			},
-			{
-				"content": "B. visible",
-				"isCorrect": false
-			},
-			{
-				"content": "C. invisibility",
-				"isCorrect": false
-			},
-			{
-				"content": "D. invisible",
-				"isCorrect": false
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "       Which of the following is used to capture all click events in a window  ",
-		"answer": [
-			{
-				"content": "A. window.captureEvents(Event.CLICK);",
-				"isCorrect": true
-			},
-			{
-				"content": "B. window.routeEvents(Event.CLICK );",
-				"isCorrect": false
-			},
-			{
-				"content": "C. window.handleEvents (Event.CLICK);",
-				"isCorrect": false
-			},
-			{
-				"content": "D. window.raiseEvents(Event.CLICK );",
-				"isCorrect": false
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "       Javascript is an object oriented language  ",
+		"question": "Javascript is (considered) an object oriented language  ",
 		"answer": [
 			{
 				"content": "A. False",
@@ -251,10 +127,10 @@
 				"isCorrect": true
 			}
 		],
-		"detail": ""
+		"detail": "It depends. Javascript is an object-based language. The developer can choose to use constructs that allow him to create Object Oriented code or not "
 	},
 	{
-		"question": "       Which of the following is not a valid JavaScript variable name  ",
+		"question": "Which of the following is not a valid JavaScript variable name  ",
 		"answer": [
 			{
 				"content": "A. 2java",
@@ -273,10 +149,10 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
+		"detail": "https://www.dummies.com/web-design-development/javascript/naming-javascript-variables/"
 	},
 	{
-		"question": "       Which of the ways below is incorrect of instantiating a date  ",
+		"question": "Which of the ways below is incorrect of instantiating a date  ",
 		"answer": [
 			{
 				"content": "A. new Date(dateString)",
@@ -296,31 +172,9 @@
 			}
 		],
 		"detail": ""
-	},
+	},	
 	{
-		"question": "       What is negative infinity in Java script  ",
-		"answer": [
-			{
-				"content": "A. Any of below",
-				"isCorrect": false
-			},
-			{
-				"content": "B. number in JavaScript, derived by dividing number by a negative number.",
-				"isCorrect": false
-			},
-			{
-				"content": "C. number in JavaScript, derived by dividing number by zero.",
-				"isCorrect": false
-			},
-			{
-				"content": "D. number in JavaScript, derived by dividing negative number by zero",
-				"isCorrect": true
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "       ___________ JavaScript is also called client-side JavaScript.  ",
+		"question": "       ___________ Javascript is also called client-side Javascript.  ",
 		"answer": [
 			{
 				"content": "A. Microsoft",
@@ -339,7 +193,7 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
+		"detail": "https://www.w3schools.com/jsref/obj_navigator.asp"
 	},
 	{
 		"question": "       What language defines the behavior of a web page  ",
@@ -357,7 +211,7 @@
 				"isCorrect": false
 			},
 			{
-				"content": "D. Java Script",
+				"content": "D. Javascript",
 				"isCorrect": true
 			}
 		],
@@ -397,10 +251,10 @@
 				"isCorrect": true
 			}
 		],
-		"detail": ""
+		"detail": "https://www.w3schools.com/js/js_versions.asp"
 	},
 	{
-		"question": "       Is it possible to declare a variable in Java Script along its type  ",
+		"question": "Is it possible to declare a variable in Java Script along its type? How we do it  ",
 		"answer": [
 			{
 				"content": "A. Yes",
@@ -411,7 +265,7 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
+		"detail": "https://repl.it/repls/SparseZigzagRepository"
 	},
 	{
 		"question": "       Which of the following method is used to evaluate a string of Java Script code in the context of the specified object  ",
@@ -433,32 +287,10 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
-	},
+		"detail": "https://www.w3schools.com/jsref/jsref_eval.asp"
+	},	
 	{
-		"question": "       Java Script entities start with ____________ and end with ______________  ",
-		"answer": [
-			{
-				"content": "A. Semicolon, colon",
-				"isCorrect": false
-			},
-			{
-				"content": "B. Semicolon, Ampersand",
-				"isCorrect": false
-			},
-			{
-				"content": "C. Ampersand, colon",
-				"isCorrect": false
-			},
-			{
-				"content": "D. Ampersand, semicolon",
-				"isCorrect": true
-			}
-		],
-		"detail": ""
-	},
-	{
-		"question": "       How to append a value to an array of Java Script  ",
+		"question": "How to append a value to an array of Java Script  ",
 		"answer": [
 			{
 				"content": "A. arr[arr.length] = value",
@@ -477,6 +309,6 @@
 				"isCorrect": false
 			}
 		],
-		"detail": ""
+		"detail": "https://repl.it/repls/PlumThinDecimals"
 	}
 ]
