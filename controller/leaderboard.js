@@ -1,7 +1,7 @@
 const data = require('../models/fakeUsersData');
 const stringMakeUp = require('../function/string-interaction');
 
-module.exports.getDashboard = (req, res) => {
+module.exports.getLeaderboard = (req, res) => {
     let userData = [...data];
 
     userData.forEach(user => user.name = stringMakeUp.upperFirstCase(user.name));    
@@ -10,5 +10,5 @@ module.exports.getDashboard = (req, res) => {
 
     userData = sortScores(userData).slice(0, 5);
 
-    res.render('pages/dashboard', { users: userData });
+    res.render('pages/leaderboard', { users: userData });
 }

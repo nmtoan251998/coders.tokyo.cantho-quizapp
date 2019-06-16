@@ -7,7 +7,7 @@ const cssController = require('../controller/data/css');
 const jsController = require('../controller/data/js');
 
 const playController = require('../controller/play');
-const dashboardController = require('../controller/dashboard');
+const leaderboardController = require('../controller/leaderboard');
 const userController = require('../controller/users');
 
 // route    /test
@@ -32,7 +32,7 @@ router.route('/play')
 
 // route    /dashboard
 // desc     dashboard page
-router.route('/dashboard').get(dashboardController.getDashboard);
+router.route('/dashboard').get(leaderboardController.getLeaderboard);
 
 // route    /user
 // desc     user page

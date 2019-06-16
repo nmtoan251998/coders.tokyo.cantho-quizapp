@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
     data = JSON.parse(getTopicData(topic));        
 
     function renderTopicQuestions() {        
-        let quesEl = '';        
-        quesEl += `<p>Câu ${recentQues+1}: ${data[recentQues].question}?</p>`;            
+        let quesEl = '';
+        quesEl += `<p>Question ${recentQues+1}: ${data[recentQues].question}?</p>`;            
         data[recentQues].answer.forEach(answer => {            
-            quesEl += `            
+            quesEl += `
                 <input 
                     type="radio"         
                     name="answerResult"

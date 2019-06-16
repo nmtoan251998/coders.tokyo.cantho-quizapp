@@ -157,11 +157,11 @@
 				"isCorrect": false
 			},
 			{
-				"content": "C. Both",
+				"content": "C. Both A and B",
 				"isCorrect": true
 			},
 			{
-				"content": "D. None",
+				"content": "D. None of the above",
 				"isCorrect": false
 			}
 		],
@@ -210,13 +210,13 @@
 			}
 		],
 		"detail": ""
-	},
+	},	
 	{
 		"question": "  DOM stands for  ",
 		"answer": [
 			{
 				"content": "A. Document object model",
-				"isCorrect": false
+				"isCorrect": true
 			},
 			{
 				"content": "B. Data object model",
@@ -224,7 +224,7 @@
 			},
 			{
 				"content": "C. Document Oriented model",
-				"isCorrect": true
+				"isCorrect": false
 			},
 			{
 				"content": "D. Data oriented model",
