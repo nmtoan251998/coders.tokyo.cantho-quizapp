@@ -1,6 +1,6 @@
 [	
 	{
-		"question": "  Javascript can be used for storing the form's contents to a database file on the server  ",
+		"question": "  JavaScript can be used for storing the form's contents to a database file on the server  ",
 		"answer": [
 			{
 				"content": "A. False",
@@ -11,7 +11,7 @@
 				"isCorrect": false
 			}
 		],
-		"detail": "Javascript is client-side language, so it cannot be used for interacting with server directly"
+		"detail": "JavaScript is client-side language, so it cannot be used for interacting with server directly"
 	},
 	{
 		"question": "  To insert a JavaScript into an HTML page, which tag is used  ",
@@ -58,7 +58,7 @@
 		"detail": ""
 	},		
 	{
-		"question": "  Javascript ignores extra spaces  ",
+		"question": "  JavaScript ignores extra spaces  ",
 		"answer": [
 			{
 				"content": "A. True",
@@ -116,7 +116,7 @@
 		"detail": ""
 	},			
 	{
-		"question": "Javascript is (considered) an object oriented language  ",
+		"question": "JavaScript is (considered) an object oriented language  ",
 		"answer": [
 			{
 				"content": "A. False",
@@ -127,7 +127,7 @@
 				"isCorrect": true
 			}
 		],
-		"detail": "It depends. Javascript is an object-based language. The developer can choose to use constructs that allow him to create Object Oriented code or not "
+		"detail": "It depends. JavaScript is an object-based language. The developer can choose to use constructs that allow him to create Object Oriented code or not "
 	},
 	{
 		"question": "Which of the following is not a valid JavaScript variable name  ",
@@ -174,7 +174,7 @@
 		"detail": ""
 	},	
 	{
-		"question": "       ___________ Javascript is also called client-side Javascript.  ",
+		"question": "       ___________ JavaScript is also called client-side JavaScript.  ",
 		"answer": [
 			{
 				"content": "A. Microsoft",
@@ -211,7 +211,7 @@
 				"isCorrect": false
 			},
 			{
-				"content": "D. Javascript",
+				"content": "D. JavaScript",
 				"isCorrect": true
 			}
 		],
@@ -310,5 +310,69 @@
 			}
 		],
 		"detail": "https://repl.it/repls/PlumThinDecimals"
+	},
+	{
+		"question": "What is Hoisting in JavaScript  ",
+		"answer": [
+			{
+				"content": "A variable can be declared after it has been used.",
+				"isCorrect": true
+			},
+			{
+				"content": "B.Execute code line by line",
+				"isCorrect": false
+			},
+			{
+				"content": "C.Wait for a process to be completed to continue executing another process",
+				"isCorrect": false
+			},
+			{
+				"content": "D. Find the data type of a JavaScript variable.",
+				"isCorrect": false
+			}
+		],
+		"detail": "https://repl.it/repls/UltimatePrevailingTranslation"
+	},
+	{
+		"question": "How many types of object in JavaScript? List them all  ",
+		"answer": [
+			{
+				"content": "A.7",
+				"isCorrect": false
+			},
+			{
+				"content": "B.5",
+				"isCorrect": false
+			},
+			{
+				"content": "C.4",
+				"isCorrect": false
+			},
+			{
+				"content": "D.6",
+				"isCorrect": true
+			}
+		],
+		"detail": "Object | Date | Array | String | Number | Boolean"
+	},
+	{
+		"question": "What is the different between array.map() and array.forEach() in JavaScript",
+		"answer": [
+			{
+				"content": "Give it a shot",
+				"isCorrect": true
+			}			
+		],
+		"detail": "https://repl.it/repls/WildUnfinishedSandboxes"
+	},
+	{
+		"question": "Moduling/Visualing a programming object in JavaScript",
+		"answer": [
+			{
+				"content": "Give it a shot",
+				"isCorrect": true
+			}
+		],
+		"detail": "https://repl.it/repls/JollyCircularDevice"
 	}
 ]
