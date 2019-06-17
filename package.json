@@ -12,6 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "clear": "^0.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
     "nodemon": "^1.19.1"
   },
   "dependencies": {
