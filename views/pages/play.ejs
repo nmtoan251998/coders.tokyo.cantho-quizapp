@@ -16,10 +16,14 @@
 
 <body>
     <%- include ../layouts/header.ejs %>
-    <div class="d-flex">
-        <%- include ../components/questions-list.ejs %>
-        <%- include ../components/questions-play.ejs %>
-    </div>
+    <section class="play-wrapper">
+        <div class="container">
+            <div class="play-content">
+                <%- include ../components/questions-list.ejs %>
+                <%- include ../components/questions-play.ejs %>
+            </div>
+        </div>
+    </section>
     <%- include ../layouts/footer.ejs %>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
