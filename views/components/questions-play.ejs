@@ -1,11 +1,7 @@
-<div class="question-wrapper mx-auto mt-5 p-2 bg-light clearfix rounded">        
-    <!-- Render question -->
-    <div class="float-right">
-        <a href="/play?init=true" id="init-button" class="btn btn-danger">Render</a>
-    </div>
-        
+<div class="question-wrapper">
+
     <!-- Topic Options -->
-    <div class="form-group mx-auto" id="topic-options-wrapper">        
+    <div class="form-group mx-auto" id="topic-options-wrapper">
         <select class="form-control" id="topic-options">
             <option>Choose topic</option>
             <option>HTML</option>
@@ -13,32 +9,44 @@
             <option>CSS</option>
             <option>General</option>
             <option>Interviewing</option>
-        </select>        
+        </select>
+    </div>
+
+    <div class="button-group float-right">
+        <a href="#" id="prev-button" class="btn">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" id="next-button" class="btn">
+            <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+
+    <!-- Render question -->
+    <div class="float-right">
+        <a href="/play?init=true" id="init-button" class="btn btn-danger">Render</a>
     </div>
 
     <!-- Topic range -->
-    <div class="form-group mx-auto" id="topic-range-wrapper">        
+    <div class="form-group mx-auto" id="topic-range-wrapper">
         <select class="form-control" id="topic-range">
             <option value="1-20">1-20</option>
         </select>
-    </div>    
+    </div>
+
 
     <!-- Question content -->
     <div class="question-container">
         <form action="/play" id="question-form">
             <div id="data-wrapper">
-                
-            </div>            
-            <div class="u-mb-1"></div>            
-            <button class="button-submit btn btn-primary" id="check-button">Check</button>
-            <div class="button-group float-right">
-                <a href="#" id="prev-button" class="btn btn-warning">Back</a>            
-                <a href="#" id="next-button" class="btn btn-warning">Next</a>                                          
+
             </div>
-        </form>        
+            <div class="u-mb-1"></div>
+            <button class="button-submit btn btn-primary" id="check-button">Check</button>
+            
+        </form>
     </div>
 
     <div class="mt-5" id="answer-result">
-        
-    </div>    
+
+    </div>
 </div>
