@@ -13,11 +13,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Fetch data from API using ajax
     function getTopicData(topic = 'html') {
         let ajax = new XMLHttpRequest();
+        // topic is choosen frequently
         ajax.open('GET', `http://localhost:3000/data/${topic}`, false);
 
         ajax.send();
         return ajax.responseText;
     };
+    // get data for the first time
     data = JSON.parse(getTopicData(topic));
 
     function renderTopicQuestions() {
@@ -35,10 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <br/>`
         });
         document.getElementById('data-wrapper').innerHTML = quesEl;
-        document.getElementById('answer-result').innerHTML = '';
+        document.getElementById('answer-result').innerHTML = '';        
     };
 
-    function getTopicRange(rangeValue) {
+    function calculateTopicRange(rangeValue) {
         const sliceValue = rangeValue.indexOf('-');
         const from = rangeValue.slice(0, sliceValue);
         const to = rangeValue.slice(sliceValue + 1, rangeValue.length);
@@ -47,11 +49,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const rangeTo = parseInt(to);
 
         return { rangeFrom, rangeTo };
-    };
+    };        
 
     function renderTopicRange() {
         let topicRangeEl = '';
 
+        // render only 20 questions
         const renderTimes = Math.floor(data.length / 20), renderSurPlus = data.length % 20;
         let from = 1, to = 20;
         for (let i = 0; i <= renderTimes; i++) {
@@ -81,9 +84,12 @@ document.addEventListener("DOMContentLoaded", () => {
         questionListEl.forEach(quesItem => {
             quesItem.addEventListener('click', (event) => {
                 event.preventDefault();
+                
+                // re-render question everytime the question in the questionTable is clicked
                 recentQues = parseInt(event.target.getAttribute('href') - 1);
                 renderTopicQuestions();
 
+                // emphasize recent question
                 questionListEl.forEach(item => {
                     item.classList.remove('active-question');
                 })
@@ -92,6 +98,30 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     };
 
+    // ISSUE: Error sometimes can be occured due to ajax response data are not able to come on time
+    function emphasizeRecentQuestion() {        
+        // Render question follow the item in question table
+        const questionListEl = document.querySelectorAll('.question-item');        
+        questionListEl.forEach((quesItem, index) => {
+            quesItem.classList.remove('active-question');
+            // hightlight the recent question
+            if(index + topicRangeFrom === (recentQues+1)) {                
+                quesItem.classList.add('active-question');                
+            }
+        })
+    };
+
+    /*===== HELPER FUNCTIONS =====*/
+    function getTopicRange() {
+        topicRangeFrom = calculateTopicRange(topicRange.value).rangeFrom;
+        topicRangeTo = calculateTopicRange(topicRange.value).rangeTo;
+    }
+
+    function render() {
+        renderTopicQuestions();        
+        emphasizeRecentQuestion();
+    }    
+
     // Validation user actions    
     prevButton.addEventListener('click', (event) => {
         if (!topic) return alert('Choose topic');
@@ -99,12 +129,12 @@ document.addEventListener("DOMContentLoaded", () => {
         event.preventDefault();
         // if the recent question === 0, return with error
         if (recentQues === topicRangeFrom - 1) {
-            alert('Cannot back');
+            alert('Opps, cannot goes back from here.');
             return;
         }
         // re-render to the previous question
         recentQues--;
-        renderTopicQuestions();
+        render();
     });
 
     nextButton.addEventListener('click', (event) => {
@@ -114,40 +144,33 @@ document.addEventListener("DOMContentLoaded", () => {
         event.preventDefault();
         // if the recent question === data.length, return error                
         if (recentQues + 1 === topicRangeTo) {
-            alert('Cannot next');
+            alert('Today eposide is enought, see you guys next time ^^');
             return;
         }
         // re-render to the next question
         recentQues++;
-        renderTopicQuestions();
+        render();
     });
 
     // Get topic
     topicOptions.addEventListener('change', (event) => {
         topic = event.target.value.trim().toLowerCase();
         data = JSON.parse(getTopicData(topic));
-        if (topic) renderTopicRange();
-
-        topicRangeFrom = getTopicRange(topicRange.value).rangeFrom;
-        topicRangeTo = getTopicRange(topicRange.value).rangeTo;
 
         if (!topic) return alert('Choose topic');
+        if (topic) renderTopicRange();
         
-        // re-render to the first question        
-        recentQues = topicRangeFrom - 1;
-        renderTopicQuestions();
-        renderQuestionTable(topicRangeFrom, topicRangeTo);
+        getTopicRange();       
+        renderQuestionTable(topicRangeFrom, topicRangeTo);        
+        render();
     })
 
     // Re-get topic range whenever it changes
     topicRange.addEventListener('change', () => {
-        topicRangeFrom = getTopicRange(topicRange.value).rangeFrom;
-        topicRangeTo = getTopicRange(topicRange.value).rangeTo;
-        recentQues = topicRangeFrom;
-
-        // re-render to the first question        
-        recentQues = topicRangeFrom - 1;
-        renderTopicQuestions();
-        renderQuestionTable(topicRangeFrom, topicRangeTo);
+        getTopicRange();
+        recentQues = topicRangeFrom - 1;        
+                                
+        renderQuestionTable(topicRangeFrom, topicRangeTo);        
+        render();
     })
 })
