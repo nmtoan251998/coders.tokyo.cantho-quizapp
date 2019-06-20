@@ -92,18 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     };
 
-    // Validation user actions
-    initButton.addEventListener('click', (event) => {
-        if (!topic) return alert('Choose topic');
-
-        // prevent the anchor to render the page
-        event.preventDefault();
-        // re-render to the first question        
-        recentQues = topicRangeFrom - 1;
-        renderTopicQuestions();
-        renderQuestionTable(topicRangeFrom, topicRangeTo);
-    });
-
+    // Validation user actions    
     prevButton.addEventListener('click', (event) => {
         if (!topic) return alert('Choose topic');
 
@@ -141,6 +130,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         topicRangeFrom = getTopicRange(topicRange.value).rangeFrom;
         topicRangeTo = getTopicRange(topicRange.value).rangeTo;
+
+        if (!topic) return alert('Choose topic');
+        
+        // re-render to the first question        
+        recentQues = topicRangeFrom - 1;
+        renderTopicQuestions();
+        renderQuestionTable(topicRangeFrom, topicRangeTo);
     })
 
     // Re-get topic range whenever it changes
@@ -148,5 +144,10 @@ document.addEventListener("DOMContentLoaded", () => {
         topicRangeFrom = getTopicRange(topicRange.value).rangeFrom;
         topicRangeTo = getTopicRange(topicRange.value).rangeTo;
         recentQues = topicRangeFrom;
+
+        // re-render to the first question        
+        recentQues = topicRangeFrom - 1;
+        renderTopicQuestions();
+        renderQuestionTable(topicRangeFrom, topicRangeTo);
     })
 })
