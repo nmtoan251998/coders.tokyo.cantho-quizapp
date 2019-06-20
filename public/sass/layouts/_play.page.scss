@@ -1,0 +1,24 @@
+.play-wrapper{
+    margin-top: 100px;
+    .play-content{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .question-list-wrapper{
+            .question-list{
+                box-sizing: border-box;
+                min-width: 260px;
+            }
+           .question-item{
+               display: block;
+               padding: 0;
+               width: 40px;
+               height: 40px;
+               line-height: 40px;
+           }
+        }
+        .question-wrapper{
+            width: 60%;
+        }
+    }
+}
