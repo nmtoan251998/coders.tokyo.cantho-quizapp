@@ -5,48 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/teamLeaderCard.css">
     <title>Coders.Tokyo Cần Thơ App</title>
 </head>
 <body>
     <%- include ../layouts/header.ejs %>  
     <div class="container-fluid">
         <div class="row">
-            <div class="col">                
+            <div class="col">
+                <div class="container">
+                    <div class="d-flex flex-column justify-content-center" style="height: 20rem">
+                        <h1 class="text-danger text-center" style="width: 100%">CODERS TOKYO CẦN THƠ</h1>
+                    </div>
+                    <%- include ../components/about-us-page/container1 %>
+                    <%- include ../components/about-us-page/container2 %>
+                    <%- include ../components/about-us-page/container3 %>
+                    <%- include ../components/about-us-page/container4 %>
+                    <%- include ../components/about-us-page/container5 %>
+                    <%- include ../components/about-us-page/container6 %>
+                    <%- include ../components/about-us-page/container7 %>
+                </div>                
             </div>                                    
         </div>                
-    </div>
-    <div class="container">
-        <div>
-            <h1>CODERS TOKYO CẦN THƠ</h1>
-        </div>
-        <div>
-            <h3>WHO WE ARE?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, molestiae velit quis facere aperiam eius nostrum autem exercitationem illum! Commodi sint repellat recusandae! Similique, nostrum unde soluta cumque suscipit dolore!</p>
-            <img src="http://lorempixel.com/600/600" alt="...">
-        </div>
-        <div>
-            <h3>HOW DO WE WORK?</h3>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis dolore beatae fugit eius nam harum dignissimos eos, molestiae iste odit soluta a, commodi quas nulla alias esse consectetur libero.</P>
-            <img src="http://lorempixel.com/700/400" alt="...">
-        </div>
-        <div>
-            <h3>WHAT DID WE DO?</h3>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis dolore beatae fugit eius nam harum dignissimos eos, molestiae iste odit soluta a, commodi quas nulla alias esse consectetur libero.</P>
-            <img src="http://lorempixel.com/700/400" alt="...">
-        </div>
-        <div>
-            <h3>TEAM LEADER</h3>
-        </div>
-        <div>
-            <h3>WHAT THINGS YOU GET FROM THIS GROUP?</h3>
-        </div>
-        <div>
-            <h3>WHAT THINGS ARE REQUIRED WHEN YOU COME TO THIS GROUP?</h3>
-        </div>
-        <div>
-            <h3>WHAT YOU NEED TO DO  TO PERFORM 'BEST' STATUS IN THIS GROUP?</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus eum unde facere vero nulla ducimus nemo voluptate quod pariatur aliquam dignissimos aperiam, quas consectetur doloribus quisquam fugiat numquam modi ex.</p>
-        </div>
     </div>
     <%- include ../layouts/footer.ejs %>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

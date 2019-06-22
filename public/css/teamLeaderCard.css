@@ -1,0 +1,63 @@
+.card .overlay {
+    width: 15rem;
+    height: 100%;
+    box-shadow: 2px 2px #EEE;
+    margin: 0px;
+    position: relative;
+  }
+  
+  .card .overlay .item1 img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s
+  }
+  
+  .card:hover .overlay .item1 img {
+    width: 110%;
+    height: 110%;
+    transform: translateX(-40px);
+  }
+  
+  .card .overlay .item1 .content {
+    width: 2.5rem;
+    height: 100%;
+    background: #c90000;
+    position: absolute;
+    margin-left: 250px;
+    transition: all 0.4s
+  }
+  
+  .card:hover .overlay .item1 .content {
+    margin-left: 210px;
+    transform: translateX(-10px)
+  }
+  
+  .card .overlay .item1 .content .list {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px
+  }
+  
+  .card .overlay .item1 .content .list li {
+    margin-top: 25px
+  }
+  
+  .card .overlay .item1 .content .list a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .card .overlay .card-body .card-title a {
+    color: #1c1c1c;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  
+  .card:hover .overlay .card-body .card-title a {
+    color: #c90000;
+  }
