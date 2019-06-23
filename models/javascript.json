@@ -33,8 +33,8 @@
 				"isCorrect": false
 			}
 		],
-		"detail": "Internal and External inserting"
-	},
+		"detail": ""
+	},	
 	{
 		"question": "  Which of the below is used in Javascript to insert special characters  ",
 		"answer": [
@@ -93,6 +93,16 @@
 		],
 		"detail": ""
 	},
+	{
+		"question": "Moduling/Visualing a programming object in JavaScript",
+		"answer": [
+			{
+				"content": "Give it a shot",
+				"isCorrect": true
+			}
+		],
+		"detail": "https://repl.it/repls/JollyCircularDevice"
+	},	
 	{
 		"question": "  Which of the following is correct to write “Hello World” on the web page  ",
 		"answer": [
@@ -196,6 +206,16 @@
 		"detail": "https://www.w3schools.com/jsref/obj_navigator.asp"
 	},
 	{
+		"question": "What is the different between array.map() and array.forEach() in JavaScript",
+		"answer": [
+			{
+				"content": "Give it a shot",
+				"isCorrect": true
+			}			
+		],
+		"detail": "https://repl.it/repls/WildUnfinishedSandboxes"
+	},
+	{
 		"question": "       What language defines the behavior of a web page  ",
 		"answer": [
 			{
@@ -288,28 +308,6 @@
 			}
 		],
 		"detail": "https://www.w3schools.com/jsref/jsref_eval.asp"
-	},	
-	{
-		"question": "How to append a value to an array of Java Script  ",
-		"answer": [
-			{
-				"content": "A. arr[arr.length] = value",
-				"isCorrect": true
-			},
-			{
-				"content": "B. arr[arr.length+1] = new Arrays()",
-				"isCorrect": false
-			},
-			{
-				"content": "C. arr[arr.length-1] = value",
-				"isCorrect": false
-			},
-			{
-				"content": "D. arr[arr.length*1] = value",
-				"isCorrect": false
-			}
-		],
-		"detail": "https://repl.it/repls/PlumThinDecimals"
 	},
 	{
 		"question": "What is Hoisting in JavaScript  ",
@@ -332,47 +330,133 @@
 			}
 		],
 		"detail": "https://repl.it/repls/UltimatePrevailingTranslation"
-	},
+	},	
 	{
-		"question": "How many types of object in JavaScript? List them all  ",
+		"question": "How to append a value to an array of Java Script  ",
 		"answer": [
 			{
-				"content": "A.7",
+				"content": "A. arr[arr.length] = value",
+				"isCorrect": true
+			},
+			{
+				"content": "B. arr[arr.length+1] = new Arrays()",
 				"isCorrect": false
 			},
 			{
-				"content": "B.5",
+				"content": "C. arr[arr.length-1] = value",
 				"isCorrect": false
 			},
 			{
-				"content": "C.4",
+				"content": "D. arr[arr.length*1] = value",
+				"isCorrect": false
+			}
+		],
+		"detail": "https://repl.it/repls/PlumThinDecimals"
+	},		
+	{
+		"question": "In JavaScript, compare how == differs from ===  ",
+		"answer": [
+			{
+				"content": "A.They are similar",
 				"isCorrect": false
 			},
 			{
-				"content": "D.6",
+				"content": "B.== is used for conditional statements, === is used for variables assignment",
+				"isCorrect": false
+			},
+			{
+				"content": "C.== compare value, while === compare the type",
+				"isCorrect": false
+			},
+			{
+				"content": "D.== compare value, === compare both value and type ",
 				"isCorrect": true
 			}
 		],
-		"detail": "Object | Date | Array | String | Number | Boolean"
-	},
+		"detail": "https://www.w3schools.com/js/js_comparisons.asp"
+	},		
 	{
-		"question": "What is the different between array.map() and array.forEach() in JavaScript",
+		"question": "Compare the different between var, let and const declaration in JavaScript",
 		"answer": [
 			{
-				"content": "Give it a shot",
-				"isCorrect": true
-			}			
-		],
-		"detail": "https://repl.it/repls/WildUnfinishedSandboxes"
-	},
-	{
-		"question": "Moduling/Visualing a programming object in JavaScript",
-		"answer": [
+				"content": "A.They are all similar",
+				"isCorrect": false
+			},
 			{
-				"content": "Give it a shot",
+				"content": "B.const used to declare function and object, var and let used to declare variable",
+				"isCorrect": false
+			},			
+			{
+				"content": "C.const used to declare CONSTANT variable, var and let are similar",
+				"isCorrect": false
+			},
+			{
+				"content": "D.None of the above",
 				"isCorrect": true
 			}
 		],
-		"detail": "https://repl.it/repls/JollyCircularDevice"
-	}
+		"detail": "https://repl.it/repls/GrumpyBothPrintablecharacter"
+	},		
+	{
+		"question": "What is the output:<br/>function sayHi() {<br/>&nbsp;&nbsp;console.log(name);<br/>&nbsp;&nbsp;console.log(age);<br/>&nbsp;&nbsp;var name = 'Lydia';<br/>&nbsp;&nbsp;let age = 21;<br/>}<br/>sayHi(); ",
+		"answer": [
+			{
+				"content": "A.Lydia và undefined",
+				"isCorrect": false
+			},
+			{
+				"content": "B.Lydia và ReferenceError",
+				"isCorrect": false
+			},			
+			{
+				"content": "C.ReferenceError và 21",
+				"isCorrect": false
+			},
+			{
+				"content": "D.undefined và ReferenceError",
+				"isCorrect": true
+			}
+		],
+		"detail": "Trong hàm chúng ta đã khai báo biến name với var. Điều đó có nghĩa là biến này sẽ được hoisted (một vùng nhớ sẽ được set up khi biến được khởi tạo) với giá trị mặc định là undefined, cho tới khi chúng ta thực sự định nghĩa biến đó. Trong hàm này, chúng ta chưa hề định nghĩa biến name tại dòng mà ta log ra, vậy nên giá trị mặc định của nó vẫn là undefined. Các biến được khai báo với keyword let (và const) cũng được hoisted nhưng không giống như var, chúng không được khởi tạo. Chúng ta sẽ không thể truy cập chúng cho tới khi chúng ta khai báo (khởi tạo) chúng. Người ta gọi đó là 'temporal dead zone'. Khi ta truy cập đến một giá trị trước khi chúng được khai báo, JavaScript sẽ throws một ReferenceError."
+	},		
+	{
+		"question": "What is the output:for (var i = 0; i < 3; i++) {<br/>&nbsp;setTimeout(() => console.log(i), 1);<br/>}<br/>for (let i = 0; i < 3; i++) {<br/>&nbsp;setTimeout(() => console.log(i), 1);<br/>}<br/>",
+		"answer": [
+			{
+				"content": "A.0 1 2 and 0 1 2",
+				"isCorrect": false
+			},
+			{
+				"content": "B.0 1 2 and 3 3 3",
+				"isCorrect": false
+			},			
+			{
+				"content": "C.3 3 3 and 0 1 2",
+				"isCorrect": true
+			}
+		],
+		"detail": "Bởi vì event queue trong JavaScript, hàm setTimeout callback sẽ được gọi sau khi vòng lặp được thực hiện. Bời vì biến i trong vòng lặp đầu tiên được khai báo với từ khóa var, nên nó sẽ là một biến global. Trong suốt vòng lặp, mỗi lần chúng ta tăng giá trị của i lên 1, sử dụng phép toán ++. Cho tới khi callback setTimeout được gọi, giá trị của i đã trở thành 3 rồi.Trong vòng lặp thứ 2, biến i được khai báo với từ khóa let, có nghĩa nó là một biến block-scoped (block là những gì được viết bên trong cặp ngoặc { }). Tại mỗi vòng lặp, i sẽ là một biến mới có một giá trị mới, và giá trị đó có scope là bên trong vòng lặp mà thôi."
+	},			
+	{
+		"question": "What is the output: <br/>const shape = {<br/>&nbsp;radius: 10,<br/>&nbsp;diameter() {<br/>&nbsp;&nbsp;&nbsp;return this.radius * 2;<br/>&nbsp;},<br/>&nbsp;perimeter: () => 2 * Math.PI * this.radius<br/>};<br/>shape.diameter();<br/>shape.perimeter();",
+		"answer": [
+			{
+				"content": "A.20 and 62.83185307179586",
+				"isCorrect": false
+			},
+			{
+				"content": "B.20 and NaN",
+				"isCorrect": true
+			},			
+			{
+				"content": "C.20 and 63",
+				"isCorrect": false
+			},			
+			{
+				"content": "D.NaN and 63",
+				"isCorrect": false
+			}
+		],
+		"detail": "Chú ý rằng giá trị diameter là một hàm thông thường, còn perimeter là một arrow function. Không giống như hàm thông thường, với arrow function, biến this sẽ trỏ tới surrounding scope! Có nghĩa là khi chúng ta gọi perimeter, nó sẽ không được gọi bởi shape object, mà nó được gọi bởi object nào đó tại surrounding scope (ví dụ window chẳng hạn).Khi không có giá trị radius tại object đó, nó sẽ trả về undefined."
+	}	
 ]
