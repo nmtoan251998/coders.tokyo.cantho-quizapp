@@ -1,0 +1,29 @@
+<div class="site-sharing">
+    <div class="list-post">
+        <% data.forEach(item=>{ %>
+            <div class="box row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="<%= item.img %>" alt="<%= item.title %>">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="content">
+                        <a href="<%= item.link%>" class="title"><%= item.title %></a>
+                        <p class="brief"><%= item.brief %></p>
+                        <div class="footer-box">
+                            <a class="read-more" href="<%=item.link%>">Xem thêm ...</a>
+                            <span class="date"><%= item.date %></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+    <ul class="pagination">
+        <% for(let i = 0;i<=amountOfPage;i++){ %>
+            <li class="pagination-item <%= (current==(i+1))? 'active': ''%>"><a href="/sharing?page=<%= (i+1)%>"><%= (i+1)%></a></li>
+        <%} %>
+        <li class="pagination-item"><a href="/sharing?page=<%= current+1%>"><i class="fas fa-arrow-right"></i></a></li>
+    </ul>
+</div>

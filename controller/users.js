@@ -8,7 +8,7 @@ module.exports.getUsers = (req, res) => {
         user.name = stringMakeUp.upperFirstCase(user.name);
         user.email = stringMakeUp.protectString(user.email, '*', 4);
         user.phone = stringMakeUp.protectString(user.phone, '*', 5)
-    })    
+    });
 
     res.render('pages/users', { users: userData });
 }
