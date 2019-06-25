@@ -17,13 +17,80 @@
                 <div class="container">
                     <div class="d-flex flex-column justify-content-center" style="height: 20rem">
                         <h1 class="text-danger text-center" style="width: 100%">CODERS TOKYO CẦN THƠ</h1>
+                    </div>                    
+                    <div class="d-flex flex-column align-items-center justify-content-center border-bottom mb-5">
+                        <h3 class="text-black-50">WHO ARE WE?</h3>
+                        <p class="col-lg-8 text-center pt-4 pb-4">
+                            We are the self programming learners that have the same target to increase and widden our programming knowledge and connect other people to create a better learning environment. We are now not only a group but also a little family to help others to solve their problems or just simply make them feel better.
+                        </p>
+                        <img class="col-lg-8 col-md-10 mb-5" src="http://via.placeholder.com/800x400" alt="...">
                     </div>
-                    <%- include ../components/about-us-page/container1 %>
-                    <%- include ../components/about-us-page/container2 %>
+                    <div class="d-flex flex-column align-items-center justify-content-center border-bottom mb-5">
+                        <h3 class="text-black-50 pb-4">HOW DO WE WORK?</h3>
+                        <div>
+                            <img class="col-lg-6 float-lg-left mb-3 col-md-10 ml-md-5 ml-lg-0" src="http://via.placeholder.com/350x200" alt="...">
+                            <p class="mb-5 pr-3 pl-3">
+                                We meet each others in the weekend to together discuss the new technologies, programming skills, or event the softskills to help others develop more comprehensive. We also help give the orientation new members or new learners by our learning experiences to identify their study path and the effective way to learn programming. We are always welcome new members to come and talk/share with us regularly.
+                            </p>
+                        </div>    
+                    </div>
                     <%- include ../components/about-us-page/container3 %>
-                    <%- include ../components/about-us-page/container4 %>
-                    <%- include ../components/about-us-page/container5 %>
-                    <%- include ../components/about-us-page/container6 %>
+                    <div class="d-flex flex-column justify-content-center align-items-center border-bottom mb-5">
+                        <h3 class="text-black-50">TEAM LEADER</h3>
+                        <div class="d-flex flex-md-row flex-column col-12 align-items-center justify-content-between mb-5 mt-5">
+                            <% teamLeaders.forEach(item => { %>
+                                <div class="card border-0 col-5 col-md-3 col-xl-2">
+                                    <img src="<%= item.avatar %>" class="card-img-top rounded-circle" alt="...">
+                                    <div class="card-body mt-4">
+                                        <h5 class="card-title text-center"><%= item.name %></h5>
+                                        <p class="card-text text-center"><%= item.job %></p>
+                                    </div>
+                                </div>
+                            <% }) %>         
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center border-bottom mb-5">
+                        <h3 class="text-black-50 text-center col-lg-6 col-md-10 col-12 mb-5">
+                            WHAT THINGS YOU GET FROM THIS GROUP?
+                        </h3>
+                        <div class="row">
+                            <% textContents[0].container5Contents.forEach(item => { %>
+                                <div class="p-2 col-lg-4 col-md-6 col-12 mb-5">
+                                    <div class="card border border-danger">
+                                        <div class="card-body pr-3 pl-3 pt-4">
+                                            <h5 class="card-title text-center text-danger">
+                                                <%= item.title %>
+                                            </h5>
+                                            <p class="card-text">
+                                                <%= item.content %>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>  
+                            <% }) %>    
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center border-bottom mb-5">
+                        <h3 class="text-black-50 text-center col-lg-6 col-md-10 col-12">
+                            WHAT THINGS ARE REQUIRED WHEN YOU COME TO THIS GROUP?
+                        </h3>
+                        <div class="col">
+                            <% textContents[0].container6Contents.forEach(item => { %>
+                                <div class="col-12 mb-4 mt-4">
+                                    <div class="card border-danger rounded-pill pl-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <%= item.title %>
+                                        </h5>
+                                        <p class="card-text">
+                                           <%= item.content %>
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                            <% }) %>  
+                        </div>
+                    </div>
                     <div class="d-flex flex-column align-items-center" style="height: 40rem">
                         <div class="d-flex flex-column align-items-center">
                                 <h3 class="text-black-50 text-center col-lg-6 col-md-10 col-12">WHAT YOU NEED TO DO  TO PERFORM 'BEST' STATUS IN THIS GROUP?</h3>
