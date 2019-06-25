@@ -3,8 +3,19 @@
         WHAT THINGS ARE REQUIRED WHEN YOU COME TO THIS GROUP?
     </h3>
     <div class="col">
-        <%- include ./components/component2 %>
-        <%- include ./components/component2 %>
-        <%- include ./components/component2 %>
+        <% textContents[0].container6Contents.forEach(item => { %>
+            <div class="col-12 mb-4 mt-4">
+                <div class="card border-danger rounded-pill pl-4">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <%= item.title %>
+                    </h5>
+                    <p class="card-text">
+                       <%= item.content %>
+                    </p>
+                </div>
+                </div>
+            </div>
+        <% }) %>  
     </div>
 </div>
