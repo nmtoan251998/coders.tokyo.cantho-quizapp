@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let elements = Array.from(document.querySelectorAll('.result-buttons'));  
         let answerExplain = '';
         
+        // send answerResult to server when the checkButton is clicked
         try {   
             const answer = elements.filter(el => {
                 if(el.checked === true) {
