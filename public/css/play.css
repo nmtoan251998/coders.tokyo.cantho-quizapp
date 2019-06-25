@@ -25,6 +25,7 @@
 .question-list-wrapper {    
     box-shadow: 2px 2px 5px 1px #c4c1c1;
     border-radius: 5px;
+    height: 360px;
 }
 
 .question-list {    

@@ -206,12 +206,24 @@
 		"detail": "https://www.w3schools.com/jsref/obj_navigator.asp"
 	},
 	{
-		"question": "What is the different between array.map() and array.forEach() in JavaScript",
+		"question": "What is the difference between array.map() and array.forEach() in JavaScript",
 		"answer": [
 			{
-				"content": "Give it a shot",
+				"content": "They are similar to each other",
+				"isCorrect": false
+			},
+			{
+				"content": ".forEach() return new array, while .map() does not",
+				"isCorrect": false
+			},
+			{
+				"content": ".map() return an array of elements in ASCII code",
+				"isCorrect": false
+			},
+			{
+				"content": "None of the above",
 				"isCorrect": true
-			}			
+			}
 		],
 		"detail": "https://repl.it/repls/WildUnfinishedSandboxes"
 	},
@@ -313,15 +325,15 @@
 		"question": "What is Hoisting in JavaScript  ",
 		"answer": [
 			{
-				"content": "A variable can be declared after it has been used.",
+				"content": "A. Variables can be declared in the top of its scope.",
 				"isCorrect": true
 			},
 			{
-				"content": "B.Execute code line by line",
+				"content": "B. Execute code line by line",
 				"isCorrect": false
 			},
 			{
-				"content": "C.Wait for a process to be completed to continue executing another process",
+				"content": "C. Wait for a process to be completed to continue executing another process",
 				"isCorrect": false
 			},
 			{
@@ -387,7 +399,7 @@
 				"isCorrect": false
 			},			
 			{
-				"content": "C.const used to declare CONSTANT variable, var and let are similar",
+				"content": "C.const is only used for declaring CONSTANT variables.",
 				"isCorrect": false
 			},
 			{
@@ -458,5 +470,31 @@
 			}
 		],
 		"detail": "Chú ý rằng giá trị diameter là một hàm thông thường, còn perimeter là một arrow function. Không giống như hàm thông thường, với arrow function, biến this sẽ trỏ tới surrounding scope! Có nghĩa là khi chúng ta gọi perimeter, nó sẽ không được gọi bởi shape object, mà nó được gọi bởi object nào đó tại surrounding scope (ví dụ window chẳng hạn).Khi không có giá trị radius tại object đó, nó sẽ trả về undefined."
-	}	
+	},			
+	{
+		"question": "How Does a Function Expression Differ from a Function Declaration",
+		"answer": [
+			{
+				"content": "A. There is no difference.",
+				"isCorrect": false
+			},
+			{
+				"content": "B. Function expression cannot be passed any parameter or argument.",
+				"isCorrect": false
+			},			
+			{
+				"content": "C. Function expression and function declaration are another types of IIFE (Intermediate Invoked Function Expression).",
+				"isCorrect": false
+			},			
+			{
+				"content": "D. All of the above.",
+				"isCorrect": false
+			},			
+			{
+				"content": "E. None of the above.",
+				"isCorrect": true
+			}
+		],
+		"detail": "The key difference is that function declarations are hoisted, while function expressions are not. That means function declarations are moved to the top of their scope by the JavaScript interpreter, and so you can define a function declaration and call it anywhere in your code."
+	}		
 ]

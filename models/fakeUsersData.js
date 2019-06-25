@@ -1,10 +1,10 @@
 module.exports = [{
   "id": "8ee1cc5fcb88e0156cbb707ebe766924",
-  "name": "Gillan",
+  "name": "Đặng Quốc Dũng",
   "phone": "5993652626",
   "password": "c23f8738d2aa21533540eeccdc692d9a",
   "email": "gnehls0@creativecommons.org",
-  "score": 15,
+  "score": 0,
   "assign": [
     "2018-07-19",
     "2018-04-06",
@@ -13,11 +13,11 @@ module.exports = [{
   ]
 }, {
   "id": "0da3f82d7d802f808cc9f3b954cfc49c",
-  "name": "Holly",
+  "name": "Phạm Quốc Nghị",
   "phone": "9696538778",
   "password": "b56fc920d33b496af09d01ea5b3ddd21",
   "email": "hbartolomivis1@mtv.com",
-  "score": 55,
+  "score": 0,
   "assign": [
     "2018-07-22",
     "2018-04-21",
@@ -26,11 +26,11 @@ module.exports = [{
   ]
 }, {
   "id": "9abe3967ce8d167c805223984c0d8a48",
-  "name": "Bili",
+  "name": "Huỳnh Hoàng Ẩn",
   "phone": "6954342465",
   "password": "9eea4d8ae9cb1da54bc95afb14a970c0",
   "email": "breay2@elegantthemes.com",
-  "score": 91,
+  "score": 0,
   "assign": [
     "2019-05-31",
     "2019-04-29",
@@ -39,11 +39,11 @@ module.exports = [{
   ]
 }, {
   "id": "89eb8652760efde6f1f7ef3ef8bab542",
-  "name": "Granny",
+  "name": "Nguyễn Khắc Minh Phúc",
   "phone": "1692602918",
   "password": "8c03fd207976e1576ab2e26f4f06aae7",
   "email": "gdjurisic3@lulu.com",
-  "score": 10,
+  "score": 0,
   "assign": [
     "2018-04-16",
     "2018-08-14",
@@ -52,11 +52,11 @@ module.exports = [{
   ]
 }, {
   "id": "58118eeb64673db65e3fae0bd8cbe9b4",
-  "name": "Hy",
+  "name": "Thông Tuấn Kiệt",
   "phone": "8078006241",
   "password": "b31e87bc5309b0a7591b655ac00271ec",
   "email": "heisak4@senate.gov",
-  "score": 83,
+  "score": 0,
   "assign": [
     "2019-04-08",
     "2019-03-05",
