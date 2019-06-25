@@ -818,5 +818,71 @@
 			}
 		],
 		"detail": ""
+	},
+	{
+		"question": " Which way to access css class .content before pseudo element ? ",
+		"answer": [
+			{
+				"content": "A. .content:before",
+				"isCorrect": false
+			},
+			{
+				"content": "B. .content: before",
+				"isCorrect": false
+			},
+			{
+				"content": "C. .content::before",
+				"isCorrect": true
+			},
+			{
+				"content": "D. .content(:before)",
+				"isCorrect": false
+			}
+		],
+		"detail": ""
+	},
+	{
+		"question": " How many way to style with css in HTML file ? ",
+		"answer": [
+			{
+				"content": "A. 2",
+				"isCorrect": false
+			},
+			{
+				"content": "B. 3",
+				"isCorrect": true
+			},
+			{
+				"content": "C. 1",
+				"isCorrect": false
+			},
+			{
+				"content": "D. 4",
+				"isCorrect": false
+			}
+		],
+		"detail": "There are 3 ways: internal style, inline styles, and link css file"
+	},
+	{
+		"question": " How to insert comment in css file ? ",
+		"answer": [
+			{
+				"content": "A. // This is a comment",
+				"isCorrect": false
+			},
+			{
+				"content": "B. <-- This is a comment --/>",
+				"isCorrect": false
+			},
+			{
+				"content": "C. / This is a comment /",
+				"isCorrect": false
+			},
+			{
+				"content": "D. /* This is a comment */",
+				"isCorrect": true
+			}
+		],
+		"detail": ""
 	}
 ]
