@@ -2,12 +2,12 @@
     <div class="list-post">
         <% data.forEach(item=>{ %>
             <div class="box row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="thumbnail">
                         <img src="<%= item.img %>" alt="<%= item.title %>">
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9 col-md-7">
                     <div class="content">
                         <a href="<%= item.link%>" class="title"><%= item.title %></a>
                         <p class="brief"><%= item.brief %></p>

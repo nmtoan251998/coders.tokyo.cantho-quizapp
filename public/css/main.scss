@@ -1,0 +1,11 @@
+$primary-color: #F65640;
+$secondary-color: #505050;
+%transition{
+  transition: all 0.3s ease;
+}
+header{
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 7777;
+}
