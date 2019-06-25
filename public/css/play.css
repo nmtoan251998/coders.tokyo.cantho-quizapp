@@ -51,13 +51,8 @@
 }
 
 .active-question {
-    background-color: #B4DDB7;
-    color: black;
-}
-
-.active-question:hover {    
-    color: black;
-    background-color: rgb(153, 179, 154);
+    background-color: #25B4FF;
+    color: #f6f6f6;
 }
 
 /* Ultilities */
