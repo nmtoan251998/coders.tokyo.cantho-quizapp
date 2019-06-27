@@ -496,5 +496,49 @@
 			}
 		],
 		"detail": "The key difference is that function declarations are hoisted, while function expressions are not. That means function declarations are moved to the top of their scope by the JavaScript interpreter, and so you can define a function declaration and call it anywhere in your code."
-	}		
+	},
+	{
+		"question": "<br/>+true;<br/>!'Lydia';<br/>What is the output",
+		"answer": [
+			{
+				"content": "A. 1 and false",
+				"isCorrect": true
+			},
+			{
+				"content": "B. false and NaN",
+				"isCorrect": false
+			},
+			{
+				"content": "C. false and false",
+				"isCorrect": false
+			}
+		],
+		"detail": "Type conversion in JavaScript"
+	},
+	{
+		"question": "How many falsy values in JavaScript",
+		"answer": [
+			{
+				"content": "A. 1",
+				"isCorrect": false
+			},
+			{
+				"content": "B. 2",
+				"isCorrect": false
+			},
+			{
+				"content": "C. 3",
+				"isCorrect": false
+			},
+			{
+				"content": "D. 5",
+				"isCorrect": false
+			},
+			{
+				"content": "E. 6",
+				"isCorrect": true
+			}
+		],
+		"detail": "https://repl.it/repls/UpsetDiscreteStrategy"
+	}	
 ]
