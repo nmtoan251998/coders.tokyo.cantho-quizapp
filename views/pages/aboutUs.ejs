@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/teamLeaderCard.css">
+    <link rel="stylesheet" href="dist.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
     <title>Coders.Tokyo Cần Thơ App</title>
 </head>
 <body>
@@ -23,18 +25,46 @@
                         <p class="col-lg-8 text-center pt-4 pb-4">
                             We are the self programming learners that have the same target to increase and widden our programming knowledge and connect other people to create a better learning environment. We are now not only a group but also a little family to help others to solve their problems or just simply make them feel better.
                         </p>
-                        <img class="col-lg-8 col-md-10 mb-5" src="http://via.placeholder.com/800x400" alt="...">
+                        <img class="col-12 mb-5" src="http://lorempixel.com/700/300" alt="...">
                     </div>
                     <div class="d-flex flex-column align-items-center justify-content-center border-bottom mb-5">
                         <h3 class="text-black-50 pb-4">HOW DO WE WORK?</h3>
                         <div>
-                            <img class="col-lg-6 float-lg-left mb-3 col-md-10 ml-md-5 ml-lg-0" src="http://via.placeholder.com/350x200" alt="...">
+                            <img class="col-lg-6 float-lg-left mb-3 col-md-10 ml-md-5 ml-lg-0" src="http://lorempixel.com/350/200" alt="...">
                             <p class="mb-5 pr-3 pl-3">
                                 We meet each others in the weekend to together discuss the new technologies, programming skills, or event the softskills to help others develop more comprehensive. We also help give the orientation new members or new learners by our learning experiences to identify their study path and the effective way to learn programming. We are always welcome new members to come and talk/share with us regularly.
                             </p>
                         </div>    
                     </div>
-                    <%- include ../components/about-us-page/container3 %>
+                    <div class="d-flex flex-column align-items-center justify-content-center border-bottom mb-5">
+                        <h3 class="text-black-50 pb-4">WHAT DID WE DO?</h3>
+                        <div class="owl-carousel owl-theme">
+                            <div>
+                                <div class="overlay" style="width: 100%; height:100%">
+                                    <p class="text-white fixed-bottom p-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, amet inventore esse, eveniet quibusdam vitae quia placeat porro quis, distinctio quisquam cumque necessitatibus provident accusantium consequuntur? Unde neque nam libero!
+                                    </p>
+                                </div>
+                                <img src="http://lorempixel.com/700/300" alt="...">
+                            </div>
+                            <div>
+                                <div class="overlay" style="width: 100%; height:100%">
+                                    <p class="text-white fixed-bottom p-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, amet inventore esse, eveniet quibusdam vitae quia placeat porro quis, distinctio quisquam cumque necessitatibus provident accusantium consequuntur? Unde neque nam libero!
+                                    </p>
+                                </div>
+                                <img src="http://lorempixel.com/700/300" alt="...">
+                            </div>
+                            <div>
+                                <div class="overlay" style="width: 100%; height:100%">
+                                    <p class="text-white fixed-bottom p-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, amet inventore esse, eveniet quibusdam vitae quia placeat porro quis, distinctio quisquam cumque necessitatibus provident accusantium consequuntur? Unde neque nam libero!
+                                    </p>
+                                </div>
+                                <img src="http://lorempixel.com/700/300" alt="...">
+                            </div>
+                        </div>
+                    </div>
                     <div class="d-flex flex-column justify-content-center align-items-center border-bottom mb-5">
                         <h3 class="text-black-50">TEAM LEADER</h3>
                         <div class="d-flex flex-md-row flex-column col-12 align-items-center justify-content-between mb-5 mt-5">
@@ -106,6 +136,8 @@
     </div>
     <%- include ../layouts/footer.ejs %>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="dist.1/owl.carousel.min.js"></script>
+    <script src="dist.1/owl.carousel.oneSlide.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
