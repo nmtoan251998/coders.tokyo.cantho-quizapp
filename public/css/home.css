@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.title {margin-top: 8rem;}
+.title,.about--us{transition: .3s;}
+.title:hover {transform: translateY(-5px);}
+.about--us:hover{transform: translateX(5px);}
+
+/* CSS OWL CAROUSEL */
+.owl-carousel .owl-item img {
+    border-radius: 5px;
+    transition: .2s;
+    filter: grayscale(80%);
+    width: 100%;
+    height: 100%;
+}
+.owl-carousel .owl-item img:hover {filter: none;}
+.owl-theme .owl-dots .owl-dot {outline: none;}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #fff;
+    border-radius: 50%;
+    color: rgb(221, 0, 0);
+    outline: none;
+    font-size: 1.5rem;
+    border: 1px solid tomato;
+}
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover {color: #fff;background-color: tomato;}
+
+/* CSS FOOTER */
+.love {color: #666; margin-top: 2rem;}
+.copyright{font-size: .8em; margin-bottom: 3em;}
+.fa-heart {color: tomato;}
+.fa-keyboard {color: dodgerblue};
+
+/* CSS block quotes */
+.quotes {
+    background: #fff;
+    width: 100%;
+    max-width: 680px;
+    min-width: 320px;
+    margin: 1em auto 0;
+    padding: .5em;
+}  
+.blockquote {
+    font: italic 100 1.5em 'Roboto', sans-serif;
+    display: block;
+    padding: 2.2em 0 0.5em;
+    position: relative;
+    line-height: 1.5em;
+    color: #818181;
+}
+.blockquote:before {
+    content: '\201C';
+    position: absolute;
+    top: 0em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 3rem;
+    height: 2rem;
+    font: 6em/1.08em 'PT Sans', sans-serif;
+    color: #666;
+    text-align: center;
+}
+
+/* CSS effect background */
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+

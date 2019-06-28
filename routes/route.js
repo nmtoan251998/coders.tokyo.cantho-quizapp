@@ -10,6 +10,7 @@ const playController = require('../controller/play');
 const leaderboardController = require('../controller/leaderboard');
 const userController = require('../controller/users');
 const sharingController = require('../controller/sharing');
+const aboutUsController = require('../controller/aboutUs')
 
 // route    /test
 // desc     use to test REST API
@@ -40,8 +41,12 @@ router.route('/leaderboard')
 // desc     user page
 router.route('/user').get(userController.getUsers);
 
-
 // route    /sharing
 // desc     sharing page
 router.route('/sharing').get(sharingController.getSharing);
+
+// route    /aboutus
+// desc     aboutUs page
+router.route('/aboutus').get(aboutUsController.getAboutUs);
+
 module.exports = router;
