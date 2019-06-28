@@ -1,4 +1,4 @@
-const data = require('../models/fakeTeamLeader');
+const data = require('../models/teamLeader');
 const stringMakeUp = require('../function/string-interaction')
 
 module.exports.getAboutUs = (req, res) => {
