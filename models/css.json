@@ -224,7 +224,7 @@
 		"answer": [
 			{
 				"content": "A. the color",
-				"isCorrect": false
+				"isCorrect": true
 			},
 			{
 				"content": "B. the element",
@@ -232,7 +232,7 @@
 			},
 			{
 				"content": "C. the id name",
-				"isCorrect": true
+				"isCorrect": false
 			},
 			{
 				"content": "D. the text shadow height",
@@ -246,11 +246,11 @@
 		"answer": [
 			{
 				"content": "A. true",
-				"isCorrect": true
+				"isCorrect": false
 			},
 			{
 				"content": "B. false",
-				"isCorrect": false
+				"isCorrect": true
 			}
 		],
 		"detail": ""
