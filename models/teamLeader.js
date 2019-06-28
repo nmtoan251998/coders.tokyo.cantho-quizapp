@@ -2,7 +2,7 @@ module.exports = [
   {
     "name": "Nguyễn Minh Toàn",
     "avatar": "img/leader/toan.png",
-    "job": "Developer"
+    "job": "IT Student"
   }, {
     "name": "Nguyễn Chí Thiện",
     "avatar": "img/leader/thien.png",
