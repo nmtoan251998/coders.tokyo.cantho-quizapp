@@ -8,3 +8,4 @@
 | POST         | /play             | Post the answer which is clicked   | Public      |
 | GET          | /leaderboard      | Get the top score member           | Public      |
 | GET          | /user             | Get all members                    | Public      |
+| GET          | /posts            | Get all posts                      | Public      |

@@ -26,10 +26,10 @@ $secondary-color: #505050;
 }
 .pagination-item{
   margin: 0 5px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   color: $primary-color;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   &.active{
     a{
@@ -42,11 +42,12 @@ $secondary-color: #505050;
   }
   a{
     color: $secondary-color;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 21px;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     border-radius: 50%;
     border: 1px solid $secondary-color;
